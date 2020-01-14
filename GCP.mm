@@ -84,16 +84,16 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" ID="ID_735924093" MODIFIED="1578907606062" TEXT="Load Balancing">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578907423120" ID="ID_1700396532" MODIFIED="1578928946442" TEXT="Global Http(s)">
-<node CREATED="1578929292975" ID="ID_929624570" MODIFIED="1578929578513" TEXT="Routing decisions based on the URL"/>
-<node CREATED="1578929432419" ID="ID_1480798641" MODIFIED="1578929478754" TEXT="Provides Global Load Balancing for Http requests destined for your instances"/>
-<node CREATED="1578929502938" ID="ID_1117771714" MODIFIED="1578929518642" TEXT="Balances http and https traffic across multiple backend instances"/>
-<node CREATED="1578929547289" ID="ID_1118411083" MODIFIED="1578929561058" TEXT="Http or port 80 or 8080"/>
-<node CREATED="1578929563571" ID="ID_922732179" MODIFIED="1578929569665" TEXT="Https on port 443"/>
-<node CREATED="1578929589561" ID="ID_1385321884" MODIFIED="1578929655635" TEXT="Supports IPV4 and IPV6"/>
-<node CREATED="1578929665684" ID="ID_30881842" MODIFIED="1578929671364" TEXT="Autoscaling"/>
-<node CREATED="1578929981715" ID="ID_1543742394" MODIFIED="1578930150148" TEXT="A balancing mode(CPU utilization or request per second) tells the load balancing system how to determine when the backend is at full usage."/>
-<node CREATED="1578930040803" ID="ID_724443106" MODIFIED="1578930119365" TEXT="if the backends for a region are at full usage new requests are automatically routed to the nearest region"/>
-<node CREATED="1578930432685" ID="ID_1250090305" MODIFIED="1578930441492" TEXT="It uses a single global IP Address"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929292975" ID="ID_929624570" MODIFIED="1579013851752" TEXT="Routing decisions based on the URL"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929432419" ID="ID_1480798641" MODIFIED="1579013851754" TEXT="Provides Global Load Balancing for Http requests destined for your instances"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929502938" ID="ID_1117771714" MODIFIED="1579013851754" TEXT="Balances http and https traffic across multiple backend instances"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929547289" ID="ID_1118411083" MODIFIED="1579013851754" TEXT="Http or port 80 or 8080"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929563571" ID="ID_922732179" MODIFIED="1579013851754" TEXT="Https on port 443"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929589561" ID="ID_1385321884" MODIFIED="1579013851754" TEXT="Supports IPV4 and IPV6"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929665684" ID="ID_30881842" MODIFIED="1579013851754" TEXT="Autoscaling"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578929981715" ID="ID_1543742394" MODIFIED="1579013851753" TEXT="A balancing mode(CPU utilization or request per second) tells the load balancing system how to determine when the backend is at full usage."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578930040803" ID="ID_724443106" MODIFIED="1579013851752" TEXT="if the backends for a region are at full usage new requests are automatically routed to the nearest region"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578930432685" ID="ID_1250090305" MODIFIED="1579013851752" TEXT="It uses a single global IP Address"/>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578907445110" ID="ID_954437220" MODIFIED="1578928946442" TEXT="Global SSL Proxy"/>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578907458182" ID="ID_1643012464" MODIFIED="1578928946442" TEXT="Global TCP Proxy"/>
@@ -106,8 +106,10 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1483336498" SOURCE="ID_200228941" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1691996175" SOURCE="ID_200228941" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578913614681" ID="ID_418907880" MODIFIED="1578913666430" TEXT="Connect your infrastructure with Google&apos;s network">
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578913371082" ID="ID_1278912227" MODIFIED="1578913669263" TEXT="Cloud interconnect and peering">
-<node BACKGROUND_COLOR="#99ccff" CREATED="1578913433793" ID="ID_826060643" MODIFIED="1578913686896" TEXT="Dedicated">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578913371082" ID="ID_1278912227" MODIFIED="1579013926257" TEXT="Cloud interconnect and peering">
+<font NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#99ccff" CREATED="1578913433793" ID="ID_826060643" MODIFIED="1579013922932" TEXT="Dedicated">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" ID="ID_739433990" MODIFIED="1578914078859">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -118,9 +120,9 @@
       Provide a direct connection to Google's network
     </p>
   </body>
-</html>
-</richcontent>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" ID="ID_1120220274" MODIFIED="1578912791389" TEXT="Direct Peering">
+</html></richcontent>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" ID="ID_1120220274" MODIFIED="1579013915214" TEXT="Direct Peering">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_250649745" MODIFIED="1578916632226" TEXT="When you require access to google and google cloud properties."/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_2658984" MODIFIED="1578921976185" TEXT="If you want to connect to GSuite/youtube"/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_416123052" MODIFIED="1578916632226" TEXT="Google allows you to establish a direct peering connection between your business networks and Google&apos;s"/>
@@ -128,7 +130,7 @@
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578916113954" ID="ID_860303830" MODIFIED="1578916632225" TEXT="You can use it to reach all the Google&apos;s services including the full suite of GCP products."/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578916113954" ID="ID_1553715045" MODIFIED="1578916632225" TEXT="Does not have an SLA"/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578916404176" ID="ID_124524328" MODIFIED="1578916632225" TEXT="GCP&apos;s Edge points of presence or PoPs"/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1578914089671" ID="ID_979676939" MODIFIED="1578916632225">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1578914089671" ID="ID_979676939" MODIFIED="1579013863575">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -138,10 +140,10 @@
       Access type: Public Ip Addresses
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1578914089671" ID="ID_1301352076" MODIFIED="1578921774403">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1578914089671" ID="ID_1301352076" MODIFIED="1579013871605">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -151,11 +153,12 @@
       10 Gbps
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907561008" ID="ID_1226728928" MODIFIED="1578912791389" TEXT="Dedicated Interconnect">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907561008" ID="ID_1226728928" MODIFIED="1579013914459" TEXT="Dedicated Interconnect">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_310388943" MODIFIED="1578915389244">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -175,8 +178,7 @@
       - Can be configured to offer 99.9 or 99.99 uptime SLA.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_818729017" MODIFIED="1578915437556">
 <richcontent TYPE="NODE"><html>
@@ -188,10 +190,9 @@
       10 Gbps - 100Gbps
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_710160310" MODIFIED="1578915554212">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_710160310" MODIFIED="1579013866093">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -201,13 +202,14 @@
       Access type: Internal Ip Addresses
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ccff" CREATED="1578913440577" ID="ID_623855905" MODIFIED="1578913686895" TEXT="Shared">
+<node BACKGROUND_COLOR="#99ccff" CREATED="1578913440577" ID="ID_623855905" MODIFIED="1579013922930" TEXT="Shared">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" ID="ID_718515013" MODIFIED="1578914083328">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -218,9 +220,9 @@
       Provides a connection to Google's through a partner.
     </p>
   </body>
-</html>
-</richcontent>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" ID="ID_308209358" MODIFIED="1578915508882" TEXT="Partner interconnect">
+</html></richcontent>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" ID="ID_308209358" MODIFIED="1579013916664" TEXT="Partner interconnect">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1804822330" MODIFIED="1578915401144">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -234,18 +236,22 @@
       - If your datacenter is in the physical location that cannot reach a dedicated interconnect co-location facility.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1018984377" MODIFIED="1578915401144" TEXT="-provides connectivity between Google&apos;s infrastructure and your on-premise network through a supported service provider"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1010700955" MODIFIED="1578915401144" TEXT="-Can be configured for 99.9 or 99.99 uptime SLA between Google and Service provider"/>
-<node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_277102321" MODIFIED="1578915476715" TEXT="50 Mbps - 10 Gbps"/>
-<node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1317510223" MODIFIED="1578915815388" TEXT="Access type: Internal Ip Addresses (this means you can communicate the resouces between your onpremise network with google infrastructure using internal ip addresses."/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_277102321" MODIFIED="1579013907072" TEXT="50 Mbps - 10 Gbps">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" ID="ID_1437713739" MODIFIED="1578916570534" TEXT="Carrier Peering">
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_1053574999" MODIFIED="1578916646769" TEXT="If you are not near to one of these PoPs "/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_198271813" MODIFIED="1578916646769" TEXT="Does not have SLA"/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1578914089671" ID="ID_70062785" MODIFIED="1578916646769">
+<node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1317510223" MODIFIED="1579013907076" TEXT="Access type: Internal Ip Addresses (this means you can communicate the resouces between your onpremise network with google infrastructure using internal ip addresses.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" ID="ID_1437713739" MODIFIED="1579013917381" TEXT="Carrier Peering">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_1053574999" MODIFIED="1579013900059" TEXT="If you are not near to one of these PoPs "/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_198271813" MODIFIED="1579013900058" TEXT="Does not have SLA"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578914089671" ID="ID_70062785" MODIFIED="1579013900058">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -256,13 +262,15 @@
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_1762962635" MODIFIED="1578921976185" TEXT="If you want to connect to GSuite/youtube"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578915974525" ID="ID_1762962635" MODIFIED="1579013900058" TEXT="If you want to connect to GSuite/youtube"/>
 </node>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" ID="ID_551472683" MODIFIED="1578915344219" TEXT="VPN">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" ID="ID_551472683" MODIFIED="1579013928503" TEXT="VPN">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1445480003" MODIFIED="1578914000432" TEXT="Provides access to internal ip addresses"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578911542812" ID="ID_1053421564" MODIFIED="1578913340472" TEXT="Connects your onpremise-network with GCP network through IpSec VPN Tunnel"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578911609388" ID="ID_276350196" MODIFIED="1578913522913" TEXT="Traffic is encrypted by one VPN Gateway and then decrypted by another gateway"/>
@@ -286,8 +294,10 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" ID="ID_1922014227" MODIFIED="1578922191524" TEXT="Sharing VPC Networks">
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578922208427" ID="ID_1246616268" MODIFIED="1578922382535" TEXT="Shared VPC">
+<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" ID="ID_1922014227" MODIFIED="1579013932246" TEXT="Sharing VPC Networks">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578922208427" ID="ID_1246616268" MODIFIED="1579013933000" TEXT="Shared VPC">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578922217226" ID="ID_912713264" MODIFIED="1578922509842" TEXT="Allows you to share a network across several projects in your GCP organization"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578922398106" ID="ID_1195169157" MODIFIED="1578922509842" TEXT="Allows an organization to connect resources from multiple projects to a common VPC Network."/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578922468537" ID="ID_1934082344" MODIFIED="1578922509842" TEXT="Resources can communicate with each other using internal Ips from that network"/>
@@ -297,7 +307,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578922311297" ID="ID_855395980" MODIFIED="1578922382536" TEXT="VPC Network Peering">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578922311297" ID="ID_855395980" MODIFIED="1579013933799" TEXT="VPC Network Peering">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578922325329" ID="ID_1990426931" MODIFIED="1578923204770" TEXT="Allows you to configure private communication across projects in same or different organizations"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578922705248" ID="ID_313349909" MODIFIED="1578923204770" TEXT="Allows private RFC 1918 connectivity across two VPC networks, regardless of whether they belong to the same project or the same organization."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923129114" ID="ID_1626236783" MODIFIED="1578923204769" TEXT="Does not incur the network latency, security, and cost drawbacks that are present using external ips or VPNs."/>
@@ -327,18 +338,18 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1578923697337" POSITION="right" TEXT="Compute Engine">
-<node CREATED="1578923702307" ID="ID_1097479081" MODIFIED="1578923708219" TEXT="Managed instance groups">
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1578924219387" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578923785798" ID="ID_780700051" MODIFIED="1578924219386" TEXT="Instance group can be resized"/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578923827407" ID="ID_1513828215" MODIFIED="1578924219386" TEXT="It can automatically scale the number of instances in the group."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578923865543" ID="ID_36147200" MODIFIED="1578924219386" TEXT="They can work with load balancing services to distribute network traffic to all instances in the group."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578924007121" ID="ID_205754385" MODIFIED="1578924219386" TEXT="The first thing you need to do is create an instance template."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578924168657" ID="ID_88996271" MODIFIED="1578924219386" TEXT="You can define single or multizone group instances"/>
-<node CREATED="1578924283343" ID="ID_1411358714" MODIFIED="1578924333931" TEXT="Offers autoscaling capabilities that allow add or remove instances based on work load">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1097479081" MODIFIED="1579013829461" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_780700051" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_1513828215" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923865543" ID="ID_36147200" MODIFIED="1579013821231" TEXT="They can work with load balancing services to distribute network traffic to all instances in the group."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924007121" ID="ID_205754385" MODIFIED="1579013821231" TEXT="The first thing you need to do is create an instance template."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924168657" ID="ID_88996271" MODIFIED="1579013821231" TEXT="You can define single or multizone group instances"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924283343" ID="ID_1411358714" MODIFIED="1579013821231" TEXT="Offers autoscaling capabilities that allow add or remove instances based on work load">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1578924358526" ID="ID_1958177843" MODIFIED="1578924393660" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
-<node CREATED="1578924497004" ID="ID_747914687" MODIFIED="1578924507242" TEXT="You can configure healthchecks"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_1958177843" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_747914687" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
 </node>
 </node>
 </node>
