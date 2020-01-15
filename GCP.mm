@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ff6666" CREATED="1578905149988" ID="ID_1789389173" MODIFIED="1578907402197" STYLE="bubble" TEXT="GCP">
+<node BACKGROUND_COLOR="#ff6666" CREATED="1578905149988" ID="ID_1789389173" MODIFIED="1579082391900" STYLE="bubble" TEXT="GCP">
 <edge STYLE="linear"/>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_1365779485" MODIFIED="1578907578902" POSITION="right" TEXT="Storage">
 <edge WIDTH="2"/>
 <arrowlink DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -20,6 +21,7 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905629145" ID="ID_1724820699" MODIFIED="1578906142182" TEXT="Relational database"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905629145" ID="ID_1597764905" MODIFIED="1578907131063" TEXT="CMS, Ecommerce"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905594122" ID="ID_1897267958" MODIFIED="1578907198615" TEXT="Postgre, Mysql"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578905594122" ID="ID_1393885422" MODIFIED="1579081905675" TEXT="customer data is encrypted on Google&apos;s internal network"/>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" ID="ID_893540148" MODIFIED="1578906124021" TEXT="Cloud Spanner">
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1578905615363" ID="ID_1142985697" MODIFIED="1578911847318" TEXT="Provides petabytes of capacity"/>
@@ -44,12 +46,6 @@
 <node BACKGROUND_COLOR="#ff6666" CREATED="1578905765760" ID="ID_1868934037" MODIFIED="1578911879957" TEXT="Mobile, web applications"/>
 <node BACKGROUND_COLOR="#ff6666" CREATED="1578905765760" ID="ID_493052615" MODIFIED="1578910446283" TEXT="You can use it without not charge because has a free daily quota."/>
 </node>
-</node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_413353756" MODIFIED="1578906124022" TEXT="Cloud Dataproc">
-<node BACKGROUND_COLOR="#009999" CREATED="1578905386420" ID="ID_831115563" MODIFIED="1578906205200" TEXT="Create clusters in 90 seconds"/>
-<node BACKGROUND_COLOR="#009999" CREATED="1578905436668" ID="ID_1395101312" MODIFIED="1578906205199" TEXT="You have to pay only for hardware resources used during the life of cluster you created"/>
-<node BACKGROUND_COLOR="#009999" CREATED="1578905485466" ID="ID_700852667" MODIFIED="1578906205197" TEXT="It&#x2019;s a great tool when you have a dataset of known size or when you want to manage your cluster size yourself."/>
-<node BACKGROUND_COLOR="#009999" CREATED="1578905499932" ID="ID_821609136" MODIFIED="1578906205197" TEXT="Migrate on-premises hadoop jobs"/>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" ID="ID_1906972901" MODIFIED="1578906124022" TEXT="Cloud Big Query">
 <arrowlink DESTINATION="ID_1906972901" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1671079920" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -180,7 +176,7 @@
   </body>
 </html></richcontent>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_818729017" MODIFIED="1578915437556">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_818729017" MODIFIED="1579082667774">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -191,6 +187,7 @@
     </p>
   </body>
 </html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_710160310" MODIFIED="1579013866093">
 <richcontent TYPE="NODE"><html>
@@ -278,7 +275,9 @@
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_820269990" MODIFIED="1578913340471" TEXT="Supports both static and dynamic routes"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_198842866" MODIFIED="1578915331261" TEXT="On-Premise VPN gateway"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912641081" ID="ID_639185064" MODIFIED="1578913340471" TEXT="A VPN tunnel connects your VPN gateways and serves as the virtual medium through the traffic is passed"/>
-<node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1385968221" MODIFIED="1578915369644" TEXT="1.5-3 Gbps"/>
+<node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1385968221" MODIFIED="1579082693390" TEXT="1.5-3 Gbps">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912827200" ID="ID_663087794" MODIFIED="1578913396885" TEXT="Coud Router">
 <node BACKGROUND_COLOR="#66ff66" CREATED="1578912837489" ID="ID_1094020375" MODIFIED="1578913360432" TEXT="It can manage routes from Cloud VPN tunnel using Border Gateway Protocol or BGP">
 <arrowlink DESTINATION="ID_1094020375" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_212618396" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -290,7 +289,9 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_206928847" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_316698002" SOURCE="ID_206928847" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_999342581" MODIFIED="1578915610588" TEXT="Access type: Internal Ip Addresses"/>
+<node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_999342581" MODIFIED="1579082689764" TEXT="Access type: Internal Ip Addresses">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -350,6 +351,54 @@
 </node>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_1958177843" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_747914687" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" ID="ID_1785371119" MODIFIED="1579082381137" POSITION="left" TEXT="BigData Services">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082449863" ID="ID_1170137283" MODIFIED="1579082635390">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -Transform business and user experiences with meaningful data insights.
+    </p>
+    <p>
+      - Integrated Serverless platform: You don't have to worry about provisioning compute instances to run your jobs.
+    </p>
+    <p>
+      - You pay only for resources you consume.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_413353756" MODIFIED="1578906124022" TEXT="Cloud Dataproc">
+<node BACKGROUND_COLOR="#009999" CREATED="1578905386420" ID="ID_831115563" MODIFIED="1578906205200" TEXT="Create clusters in 90 seconds"/>
+<node BACKGROUND_COLOR="#009999" CREATED="1578905436668" ID="ID_1395101312" MODIFIED="1578906205199" TEXT="You have to pay only for hardware resources used during the life of cluster you created"/>
+<node BACKGROUND_COLOR="#009999" CREATED="1578905499932" ID="ID_821609136" MODIFIED="1579082783095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      -Migrate on-premises hadoop jobs
+    </p>
+    <p>
+      -Apache hadoop: open source framework for big data.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node BACKGROUND_COLOR="#009999" CREATED="1578905499932" ID="ID_1667206649" MODIFIED="1579082121897" TEXT="data processing, analytics, and machine learning"/>
+<node BACKGROUND_COLOR="#009999" CREATED="1578905499932" ID="ID_1895323435" MODIFIED="1579083448086" TEXT="You can save money using preemptible VMs in your clusters"/>
+<node BACKGROUND_COLOR="#009999" CREATED="1578905485466" ID="ID_700852667" MODIFIED="1578906205197" TEXT="It&#x2019;s a great tool when you have a dataset of known size or when you want to manage your cluster size yourself."/>
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_76046517" MODIFIED="1579082359749" TEXT="Dataflow">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_523728138" MODIFIED="1579083600275" TEXT="When your data shows up in real time"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_934539747" MODIFIED="1579083612261" TEXT="unpredictable size or rate"/>
+</node>
 </node>
 </node>
 </node>
