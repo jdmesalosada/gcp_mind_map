@@ -3,7 +3,7 @@
 <node BACKGROUND_COLOR="#ff6666" CREATED="1578905149988" ID="ID_1789389173" MODIFIED="1579082391900" STYLE="bubble" TEXT="GCP">
 <edge STYLE="linear"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_1365779485" MODIFIED="1579095693981" POSITION="right" TEXT="STORAGE">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" FOLDED="true" ID="ID_1365779485" MODIFIED="1579597829756" POSITION="right" TEXT="STORAGE">
 <edge WIDTH="2"/>
 <arrowlink DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" SOURCE="ID_1365779485" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -78,7 +78,7 @@
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1579093358169" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#009999" CREATED="1578907407296" ID="ID_271345473" MODIFIED="1579093341322" POSITION="right" TEXT="VPC">
+<node BACKGROUND_COLOR="#009999" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1579597830836" POSITION="right" TEXT="VPC">
 <arrowlink DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -209,7 +209,7 @@
 </node>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_1087801752" MODIFIED="1579509100027" TEXT="Layer 3"/>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907561008" FOLDED="true" ID="ID_1226728928" MODIFIED="1579511629244" TEXT="Dedicated Interconnect">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907561008" FOLDED="true" ID="ID_1226728928" MODIFIED="1579597818707" TEXT="Dedicated Interconnect">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578914089671" ID="ID_310388943" MODIFIED="1578915389244">
 <richcontent TYPE="NODE"><html>
@@ -288,7 +288,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_308209358" MODIFIED="1579511630922" TEXT="Partner interconnect">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_308209358" MODIFIED="1579597815956" TEXT="Partner interconnect">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1578914474158" ID="ID_1804822330" MODIFIED="1578915401144">
 <richcontent TYPE="NODE"><html>
@@ -317,7 +317,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_1437713739" MODIFIED="1579511632197" TEXT="Carrier Peering">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_1437713739" MODIFIED="1579597809253" TEXT="Carrier Peering">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_1053574999" MODIFIED="1579013900059" TEXT="If you are not near to one of these PoPs "/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_198271813" MODIFIED="1579013900058" TEXT="Does not have SLA"/>
@@ -393,7 +393,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1579095685482" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1579597822452" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
@@ -413,20 +413,27 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1579097612547" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1579615260377" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579511798315" TEXT="Managed instance groups">
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_780700051" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_1513828215" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923865543" ID="ID_36147200" MODIFIED="1579013821231" TEXT="They can work with load balancing services to distribute network traffic to all instances in the group."/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924007121" ID="ID_205754385" MODIFIED="1579013821231" TEXT="The first thing you need to do is create an instance template."/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924168657" ID="ID_88996271" MODIFIED="1579013821231" TEXT="You can define single or multizone group instances"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924283343" ID="ID_1411358714" MODIFIED="1579013821231" TEXT="Offers autoscaling capabilities that allow add or remove instances based on work load">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1579615286016" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923865543" ID="ID_754863307" MODIFIED="1579013821231" TEXT="They can work with load balancing services to distribute network traffic to all instances in the group."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924007121" ID="ID_198046764" MODIFIED="1579013821231" TEXT="The first thing you need to do is create an instance template."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924168657" ID="ID_1644406752" MODIFIED="1579013821231" TEXT="You can define single or multizone group instances"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924283343" ID="ID_1702786334" MODIFIED="1579013821231" TEXT="Offers autoscaling capabilities that allow add or remove instances based on work load">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_1958177843" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_747914687" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_126935951" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_302648783" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
+</node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1097479081" MODIFIED="1579615423010" TEXT="Unmanaged instance groups">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579615415734" TEXT="Collections of instances that exist in a single  zone"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_1448932511" MODIFIED="1579615439591" TEXT="They don&apos;t share a common instance template"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_403580146" MODIFIED="1579615643239" TEXT="They don&apos;t autoscale, create,delete, the number of instances in the group."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_588993370" MODIFIED="1579615540328" TEXT="You create a group and add individual instances to the group later."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_544867000" MODIFIED="1579615676759" TEXT="First time you create an unmanaged group is empty. Then you can add instances."/>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_73488468" MODIFIED="1579511801085" TEXT="Target pool resources">
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_961644255" MODIFIED="1579097734677" TEXT="Group of instances that receive incoming traffic from forwarding rules."/>
@@ -437,7 +444,7 @@
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_68785087" MODIFIED="1579512154281" TEXT="Each project can have up to 50 target pools"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" ID="ID_1785371119" MODIFIED="1579095679884" POSITION="left" TEXT="BIGDATA SERVICE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1579597824820" POSITION="left" TEXT="BIGDATA SERVICE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082449863" ID="ID_1170137283" MODIFIED="1579082635390">
 <richcontent TYPE="NODE"><html>
@@ -509,7 +516,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1579518528000" POSITION="right" TEXT="STACK DRIVER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1579597834626" POSITION="right" TEXT="STACK DRIVER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_232598476" MODIFIED="1579513910624" TEXT="Many GCP services have stackdriver monitoring integration built in: compute engine, app engine, kubernetes engine">
 <edge WIDTH="2"/>
@@ -544,14 +551,23 @@
 </node>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_682296345" MODIFIED="1579530954707" TEXT="You can create alerting policies that notify you when specific conditions are met."/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1087280521" MODIFIED="1579531353010" TEXT="You can also monitor your stackdriver usage and alerts you when you approach the threshold for billing."/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_32398558" MODIFIED="1579597428591" TEXT="Uptime checks test the availability of your public services"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1896090706" MODIFIED="1579597624532" TEXT="Stackdriver monitoring can access some metrics without the monitoring agent like: CPU utilization, disk traffic metrics, network traffic, and uptime information."/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_172271390" MODIFIED="1579597781213" TEXT="To access to additional system resources and application services, you should install the monitoring agent. It&apos;s supported by Compute Engine and EC2 instances."/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1700331175" MODIFIED="1579597898484" TEXT="You can create custom metrics."/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1571966605" MODIFIED="1579518659530" TEXT="Logging"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1571966605" MODIFIED="1579518659530" TEXT="Logging">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_12341988" MODIFIED="1579598715571" TEXT="Allows you to store, search, analyze, monitor and alert on logged data and events from GCP and AWS"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1385718587" MODIFIED="1579598831672" TEXT="It can ingest application and system log data from thousands of VMs"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1442372108" MODIFIED="1579598900505" TEXT="It lets you read and write log entries, search and filter your logs."/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_220366918" MODIFIED="1579598926440" TEXT="Logs are only retained for 30 days."/>
+</node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1310878863" MODIFIED="1579518659530" TEXT="Error Reporting"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1313827429" MODIFIED="1579518659530" TEXT="Trace"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_327582557" MODIFIED="1579518659530" TEXT="Debugger"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1213204346" MODIFIED="1579452980694" POSITION="left" TEXT="APP ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1579597825621" POSITION="left" TEXT="APP ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_40212672" MODIFIED="1579453216693" TEXT="Provide all the resources necessary to host your application. Suitable for Web apps and mobile">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" FOLDED="true" ID="ID_1669164052" MODIFIED="1579512331672" TEXT="Flexible">
