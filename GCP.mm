@@ -415,7 +415,7 @@
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1579615260377" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1579615286016" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1579616909170" TEXT="Managed instance groups">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
@@ -428,14 +428,15 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_126935951" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_302648783" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1097479081" MODIFIED="1579615423010" TEXT="Unmanaged instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579616908468" TEXT="Unmanaged instance groups">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579615415734" TEXT="Collections of instances that exist in a single  zone"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_1448932511" MODIFIED="1579615439591" TEXT="They don&apos;t share a common instance template"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_403580146" MODIFIED="1579615643239" TEXT="They don&apos;t autoscale, create,delete, the number of instances in the group."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_588993370" MODIFIED="1579615540328" TEXT="You create a group and add individual instances to the group later."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_544867000" MODIFIED="1579615676759" TEXT="First time you create an unmanaged group is empty. Then you can add instances."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_892611585" MODIFIED="1579616561669" TEXT="Use unmanaged instance groups if you need to apply load balancing to groups of heterogeneous instances or if you need to manage the instances yourself."/>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_73488468" MODIFIED="1579511801085" TEXT="Target pool resources">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_73488468" MODIFIED="1579616907723" TEXT="Target pool resources">
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_961644255" MODIFIED="1579097734677" TEXT="Group of instances that receive incoming traffic from forwarding rules."/>
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_512220561" MODIFIED="1579511939417" TEXT="When a forwarding rule directs traffic to a target pool, Cloud balancing picks an instance from these target pools"/>
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_1602389694" MODIFIED="1579097734677" TEXT="Group of instances that receive incoming traffic from forwarding rules."/>
@@ -537,7 +538,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579518532185" ID="ID_172324960" MODIFIED="1579518620634" TEXT="SERVICES">
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_101717703" MODIFIED="1579518659530" TEXT="Monitoring">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_101717703" MODIFIED="1579617951560" TEXT="Monitoring">
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_905218884" MODIFIED="1579529786827" TEXT="It&apos;s the base of Site Reliability Engineering or SRE"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_499739360" MODIFIED="1579529786827" TEXT="SRE - Discipline to create ultra scalable and highly reliable software systems."/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_524391419" MODIFIED="1579529857218" TEXT="Stackdriver dynamically configures monitoring after resources are deployed"/>
@@ -555,16 +556,35 @@
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1896090706" MODIFIED="1579597624532" TEXT="Stackdriver monitoring can access some metrics without the monitoring agent like: CPU utilization, disk traffic metrics, network traffic, and uptime information."/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_172271390" MODIFIED="1579597781213" TEXT="To access to additional system resources and application services, you should install the monitoring agent. It&apos;s supported by Compute Engine and EC2 instances."/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1700331175" MODIFIED="1579597898484" TEXT="You can create custom metrics."/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_1115369562" MODIFIED="1579616881380" TEXT="You can install a monitoring agent as a good practice."/>
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1571966605" MODIFIED="1579518659530" TEXT="Logging">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_12341988" MODIFIED="1579598715571" TEXT="Allows you to store, search, analyze, monitor and alert on logged data and events from GCP and AWS"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1385718587" MODIFIED="1579598831672" TEXT="It can ingest application and system log data from thousands of VMs"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1442372108" MODIFIED="1579598900505" TEXT="It lets you read and write log entries, search and filter your logs."/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_220366918" MODIFIED="1579598926440" TEXT="Logs are only retained for 30 days."/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1607247811" MODIFIED="1579616700917" TEXT="If you want to visualize your logs, you can connect BigQuery tables to DataStudio"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_231556166" MODIFIED="1579616765974" TEXT="You can use pub/sub to send logs to applications or endpoints."/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_339101198" MODIFIED="1579616901796" TEXT="It&apos;s a good practice to install the Logging agent on all your VM instances."/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1310878863" MODIFIED="1579518659530" TEXT="Error Reporting"/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1313827429" MODIFIED="1579518659530" TEXT="Trace"/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_327582557" MODIFIED="1579518659530" TEXT="Debugger"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1310878863" MODIFIED="1579518659530" TEXT="Error Reporting">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_1725489634" MODIFIED="1579617006085" TEXT="It counts, analyzes, and aggregates the errors in the running cloud services."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_608959459" MODIFIED="1579617044803" TEXT="You can setup real-time notifications when new errors are detected."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_610247113" MODIFIED="1579617150132" TEXT="The exception stack trace parser can process Go, Java, Net, Nodejs, Php, Python and Ruby."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_857083479" MODIFIED="1579617218627" TEXT="It&apos;s used by App Engine Standard and it&apos;s in beta phase for App Engine Flexible"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_1707861609" MODIFIED="1579617723090" TEXT="A centralized error management interface you can sorting and filtering"/>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1313827429" MODIFIED="1579618111561" TEXT="Trace">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_168117176" MODIFIED="1579617943266" TEXT="Distributed tracing system that collects latency data from your application and displays it in the GCP console."/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_1834010889" MODIFIED="1579618045192" TEXT="You can track how request propagate through your application and receive detailed, near real-time performance insights"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_757564510" MODIFIED="1579618096727" TEXT="Automatically analyzes all of your application&apos;s traces to generate in-depth latency reports."/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_348725387" MODIFIED="1579618143073" TEXT="It can capture traces from App Engine, Http load balancers, and applications instrumented with stack driver trace api"/>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_327582557" MODIFIED="1579518659530" TEXT="Debugger">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_548069645" MODIFIED="1579618606447" TEXT="It allows you to inspect the state of a running application in real time."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_620716758" MODIFIED="1579618752445" TEXT="It help you to understand the behavior of your code in production and analyze its state"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_1347759040" MODIFIED="1579618805822" TEXT="You can take a snapshot of your application state or inject a new logging statement."/>
+</node>
 </node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1579597825621" POSITION="left" TEXT="APP ENGINE">
