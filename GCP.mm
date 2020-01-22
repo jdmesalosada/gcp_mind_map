@@ -3,18 +3,20 @@
 <node BACKGROUND_COLOR="#ff6666" CREATED="1578905149988" ID="ID_1789389173" MODIFIED="1579688774487" STYLE="bubble" TEXT="GCP">
 <edge STYLE="linear"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_1365779485" MODIFIED="1579688321865" POSITION="right" TEXT="STORAGE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578905159096" ID="ID_1365779485" MODIFIED="1579693088809" POSITION="right" TEXT="STORAGE">
 <edge WIDTH="2"/>
 <arrowlink DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" SOURCE="ID_1365779485" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578906556823" ID="ID_1043998882" MODIFIED="1579450528899" TEXT="Services">
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578906450950" FOLDED="true" ID="ID_1919613632" MODIFIED="1579506824006" TEXT="Cloud storage">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578906450950" ID="ID_1919613632" MODIFIED="1579692218967" TEXT="Cloud storage">
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1393687566" MODIFIED="1578906672917" TEXT="Store objects with unique key. The key is the url"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906499400" ID="ID_932816088" MODIFIED="1578906672918" TEXT="Objects are inmutable"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906512336" ID="ID_1563293127" MODIFIED="1578906672918" TEXT="Objects are organized in buckets"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906535966" ID="ID_1203680547" MODIFIED="1578906672917" TEXT="Globally unique Name"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906535966" ID="ID_1406983933" MODIFIED="1579450566050" TEXT="To store structure and unstructured objects, binary objects like images, large media files and backups"/>
+<node BACKGROUND_COLOR="#ff6600" CREATED="1578906535966" ID="ID_847367646" MODIFIED="1579692450906" TEXT="Lifecycle to take actions like delete objects after specific time."/>
+<node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1327668050" MODIFIED="1579693617574" TEXT="All cloud storage objects are automatically encrypted at rest"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1578906260839" FOLDED="true" ID="ID_645299442" MODIFIED="1579506823047" TEXT="Relational Database Support">
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" ID="ID_1829723618" MODIFIED="1578907036569" TEXT="Cloud Sql">
@@ -86,9 +88,11 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_295568515" MODIFIED="1579689676369" TEXT="To use a folder you need an organization node. If you don&apos;t use folder you don&apos;t need an organization node"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1465537517" MODIFIED="1579689747360" TEXT="A less restrictive parent policy overrides a more restrictive resource policy."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_736621533" MODIFIED="1579690106832" TEXT="Google groups are a convenient way to apply an access policy to a collection of users"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1309652372" MODIFIED="1579690267616" TEXT="A policy contains a set of roles and roles members"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1486968084" MODIFIED="1579690784669" TEXT="There are 5 types of members: google accounts, services accounts, google groups, G Suite Domains, and Cloud identity domains(it&apos;s like GSuite Domain  it represents a virtual group of all Google Accounts in an organization but  users don&apos;t have access to G Suite applications and features)"/>
 </node>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_640547831" MODIFIED="1579689787891" TEXT="TYPE OF ROLES">
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_684395744" MODIFIED="1579689834809" TEXT="Primitive">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_684395744" MODIFIED="1579690518899" TEXT="Primitive">
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579689848529" ID="ID_1130473462" MODIFIED="1579690041906" TEXT="Owner">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579689902841" ID="ID_1804238848" MODIFIED="1579690028728" TEXT="Invite members, remove members, delete projects plus editor permissions"/>
 </node>
@@ -98,12 +102,15 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579689848529" ID="ID_1446441034" MODIFIED="1579690017378" TEXT="Viewer">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579689902841" ID="ID_999473880" MODIFIED="1579690028729" TEXT="Read-only access"/>
 </node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579689848529" ID="ID_1862803410" MODIFIED="1579690549470" TEXT="When you apply primitive roles to a GCP project, they affect all resources in that project."/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1329821449" MODIFIED="1579689834809" TEXT="Predefined"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1329821449" MODIFIED="1579689834809" TEXT="Predefined">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_423510132" MODIFIED="1579690487525" TEXT="The predefined roles in GCP allow you to have a list of roles with specific permissions to specific resources, this make easier to manage the access. For example: compute admin, network admin, storage admin."/>
+</node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#009999" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1579597830836" POSITION="right" TEXT="VPC">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" ID="ID_271345473" MODIFIED="1579693078178" POSITION="right" TEXT="VPC">
 <arrowlink DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -197,7 +204,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" FOLDED="true" ID="ID_1120220274" MODIFIED="1579511627277" TEXT="Direct Peering">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907542944" FOLDED="true" ID="ID_1120220274" MODIFIED="1579693308669" TEXT="Direct Peering">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_250649745" MODIFIED="1578916632226" TEXT="When you require access to google and google cloud properties."/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1578915974525" ID="ID_2658984" MODIFIED="1578921976185" TEXT="If you want to connect to GSuite/youtube"/>
@@ -342,7 +349,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_1437713739" MODIFIED="1579597809253" TEXT="Carrier Peering">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907551824" FOLDED="true" ID="ID_1437713739" MODIFIED="1579693324382" TEXT="Carrier Peering">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_1053574999" MODIFIED="1579013900059" TEXT="If you are not near to one of these PoPs "/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578916509873" ID="ID_198271813" MODIFIED="1579013900058" TEXT="Does not have SLA"/>
@@ -365,7 +372,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" FOLDED="true" ID="ID_551472683" MODIFIED="1579511638811" TEXT="VPN">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" ID="ID_551472683" MODIFIED="1579693316746" TEXT="VPN">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1445480003" MODIFIED="1578914000432" TEXT="Provides access to internal ip addresses"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578911542812" ID="ID_1053421564" MODIFIED="1578913340472" TEXT="Connects your onpremise-network with GCP network through IpSec VPN Tunnel"/>
@@ -377,7 +384,7 @@
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1385968221" MODIFIED="1579082693390" TEXT="1.5-3 Gbps">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ff9900" CREATED="1578912827200" FOLDED="true" ID="ID_663087794" MODIFIED="1579511637771" TEXT="Coud Router">
+<node BACKGROUND_COLOR="#ff9900" CREATED="1578912827200" ID="ID_663087794" MODIFIED="1579693350962" TEXT="Coud Router">
 <node BACKGROUND_COLOR="#66ff66" CREATED="1578912837489" ID="ID_1094020375" MODIFIED="1578913360432" TEXT="It can manage routes from Cloud VPN tunnel using Border Gateway Protocol or BGP">
 <arrowlink DESTINATION="ID_1094020375" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_212618396" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1094020375" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_212618396" SOURCE="ID_1094020375" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -417,6 +424,7 @@
 </node>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1893418302" MODIFIED="1579693023959" TEXT="Virtual Networks have a global scope and subnets a regional scope"/>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1579597822452" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -510,7 +518,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905485466" ID="ID_700852667" MODIFIED="1579512395081" TEXT="It&#x2019;s a great tool when you have a dataset of known size or when you want to manage your cluster size yourself."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905386420" ID="ID_10542906" MODIFIED="1579512395081" TEXT="Migrate on-premises hadoop jobs"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_76046517" MODIFIED="1579688645169" TEXT="Dataflow">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" FOLDED="true" ID="ID_76046517" MODIFIED="1579690573454" TEXT="Dataflow">
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_523728138" MODIFIED="1579083600275" TEXT="When your data shows up in real time"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_934539747" MODIFIED="1579083612261" TEXT="unpredictable size or rate"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_1664959723" MODIFIED="1579084058721" TEXT="data processing patterns: extract, transform and load batch computation and continuos computation"/>
@@ -542,7 +550,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1579597834626" POSITION="right" TEXT="STACK DRIVER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" FOLDED="true" ID="ID_750961470" MODIFIED="1579693060030" POSITION="right" TEXT="STACK DRIVER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_232598476" MODIFIED="1579513910624" TEXT="Many GCP services have stackdriver monitoring integration built in: compute engine, app engine, kubernetes engine">
 <edge WIDTH="2"/>
@@ -615,7 +623,7 @@
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1213204346" MODIFIED="1579688328249" POSITION="left" TEXT="APP ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_40212672" MODIFIED="1579453216693" TEXT="Provide all the resources necessary to host your application. Suitable for Web apps and mobile">
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1669164052" MODIFIED="1579688332286" TEXT="Flexible">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" FOLDED="true" ID="ID_1669164052" MODIFIED="1579690574916" TEXT="Flexible">
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_1679017062" MODIFIED="1579512310889" TEXT="You can use containers with flexible app engine"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_927218934" MODIFIED="1579453578571" TEXT="Allows SSH access"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_170348933" MODIFIED="1579453624798" TEXT="Support third party binaries"/>
@@ -641,6 +649,16 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689057842" ID="ID_1095259901" MODIFIED="1579689120049" TEXT="Allocation">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689057842" ID="ID_1907855287" MODIFIED="1579689186450" TEXT="Govern the number of resources you can have in your projects. For GCP project we have a quota allowing it no more than 5 private cloud networks"/>
 </node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" ID="ID_1872695395" MODIFIED="1579692897135" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" ID="ID_1454561778" MODIFIED="1579693155806" POSITION="right" TEXT="DISK">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579693202389" TEXT="Local SSD">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
 </node>
 </node>
 </node>
