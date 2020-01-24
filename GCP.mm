@@ -722,15 +722,13 @@
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579876010862" ID="ID_809903169" MODIFIED="1579877056864" TEXT="HDD">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877979971" ID="ID_384541803" MODIFIED="1579878034986" TEXT="Data redundancy"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877979971" ID="ID_1766168946" MODIFIED="1579878034986" TEXT="Encryption at rest"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877979971" ID="ID_104505965" MODIFIED="1579878034985" TEXT="Snapshotting"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579876010862" ID="ID_197484065" MODIFIED="1579877058588" TEXT="SDD">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579693180352" ID="ID_113181503" MODIFIED="1579874570827" TEXT="SSDs are designed to give you a higher number of IOPS per dollar versus standard disks, which will give you a higher amount of capacity for your dollar."/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
-</node>
 </node>
 </node>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_968174679" MODIFIED="1579877167990" TEXT="Ram Disk">
@@ -739,6 +737,11 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_875450802" MODIFIED="1579877214603" TEXT="slower than memory"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_1916966820" MODIFIED="1579877214603" TEXT="Erase on stop or restart"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_443244375" MODIFIED="1579877214603" TEXT="To store data in memory"/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
 </node>
 </node>
 </node>
