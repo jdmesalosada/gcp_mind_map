@@ -110,11 +110,12 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1579769814754" POSITION="right" TEXT="VPC">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" ID="ID_271345473" MODIFIED="1579865478315" POSITION="right" TEXT="VPC">
 <arrowlink DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" ID="ID_735924093" MODIFIED="1579767465799" TEXT="Load Balancing">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" ID="ID_735924093" MODIFIED="1579865112415" TEXT="Load Balancing">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579097154561" ID="ID_341808265" MODIFIED="1579767466805" TEXT="Global">
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1578907423120" FOLDED="true" ID="ID_1700396532" MODIFIED="1579769404282" TEXT="Global Http(s) / Http(s) load balancer">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578929292975" ID="ID_929624570" MODIFIED="1579013851752" TEXT="Routing decisions based on the URL"/>
@@ -183,11 +184,12 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578907525654" ID="ID_200228941" MODIFIED="1579184082248" TEXT="Interconnect Options/Interconnecting newtorks">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578907525654" ID="ID_200228941" MODIFIED="1579865111638" TEXT="Interconnect Options/Interconnecting newtorks">
 <arrowlink DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1483336498" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <arrowlink DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1691996175" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1483336498" SOURCE="ID_200228941" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_200228941" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1691996175" SOURCE="ID_200228941" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578913614681" ID="ID_418907880" MODIFIED="1578913666430" TEXT="Connect your infrastructure with Google&apos;s network">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578913371082" ID="ID_1278912227" MODIFIED="1579769472144" TEXT="Cloud interconnect and peering">
 <font NAME="SansSerif" SIZE="12"/>
@@ -372,7 +374,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" FOLDED="true" ID="ID_551472683" MODIFIED="1579769661185" TEXT="VPN">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578907535593" FOLDED="true" ID="ID_551472683" MODIFIED="1579865095184" TEXT="VPN">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1445480003" MODIFIED="1578914000432" TEXT="Provides access to internal ip addresses"/>
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578911542812" ID="ID_1053421564" MODIFIED="1578913340472" TEXT="Connects your onpremise-network with GCP network through IpSec VPN Tunnel"/>
@@ -384,7 +386,8 @@
 <node BACKGROUND_COLOR="#ff9900" CREATED="1578912762488" ID="ID_1385968221" MODIFIED="1579082693390" TEXT="1.5-3 Gbps">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ff9900" CREATED="1578912827200" ID="ID_663087794" MODIFIED="1579693350962" TEXT="Coud Router">
+<node BACKGROUND_COLOR="#ff9900" CREATED="1578912827200" ID="ID_663087794" MODIFIED="1579865091866" TEXT="Coud Router">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#66ff66" CREATED="1578912837489" ID="ID_1094020375" MODIFIED="1578913360432" TEXT="It can manage routes from Cloud VPN tunnel using Border Gateway Protocol or BGP">
 <arrowlink DESTINATION="ID_1094020375" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_212618396" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1094020375" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_212618396" SOURCE="ID_1094020375" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -401,9 +404,9 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" ID="ID_1922014227" MODIFIED="1579013932246" TEXT="Sharing VPC Networks">
+<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" ID="ID_1922014227" MODIFIED="1579865915171" TEXT="Sharing VPC Networks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578922208427" FOLDED="true" ID="ID_1246616268" MODIFIED="1579769706209" TEXT="Shared VPC">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578922208427" ID="ID_1246616268" MODIFIED="1579865604919" TEXT="Shared VPC">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578922217226" ID="ID_912713264" MODIFIED="1578922509842" TEXT="Allows you to share a network across several projects in your GCP organization"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578922398106" ID="ID_1195169157" MODIFIED="1578922509842" TEXT="Allows an organization to connect resources from multiple projects to a common VPC Network."/>
@@ -414,7 +417,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578922311297" FOLDED="true" ID="ID_855395980" MODIFIED="1579769726730" TEXT="VPC Network Peering">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578922311297" ID="ID_855395980" MODIFIED="1579865924247" TEXT="VPC Peering">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578922325329" ID="ID_1990426931" MODIFIED="1578923204770" TEXT="Allows you to configure private communication across projects in same or different organizations"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578922705248" ID="ID_313349909" MODIFIED="1578923204770" TEXT="Allows private RFC 1918 connectivity across two VPC networks, regardless of whether they belong to the same project or the same organization."/>
@@ -424,31 +427,70 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1893418302" MODIFIED="1579693023959" TEXT="Virtual Networks have a global scope and subnets a regional scope"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1893418302" MODIFIED="1579693023959" TEXT="Virtual Networks have a global scope and subnets a regional scope">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_351013129" MODIFIED="1579865531720" TEXT="GCP automatically creates a VPC(virtual private cloud) when you create a project"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_4671821" MODIFIED="1579871250451" TEXT="VPC let you  increase the Ip Address space of any subnets without any workload shutdown or downtime."/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1579597822452" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" ID="ID_1988412452" MODIFIED="1579873848748" TEXT="Cloud DNS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579097154561" ID="ID_1116591425" MODIFIED="1579873882154" TEXT="It&apos;s a managed service providing authoritative domain naming services.">
+<node BACKGROUND_COLOR="#999900" CREATED="1579864992342" ID="ID_1848897582" MODIFIED="1579865040798" TEXT="provides">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579865000164" ID="ID_869836491" MODIFIED="1579865051744" TEXT="High availability"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579865000164" ID="ID_1199844310" MODIFIED="1579865051744" TEXT="low latency"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579865000164" ID="ID_1274605321" MODIFIED="1579865051744" TEXT="Scalability"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579865965039" ID="ID_1746957543" MODIFIED="1579866155607" TEXT="TYPES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579865998723" ID="ID_1808814916" MODIFIED="1579866078908" TEXT="Auto mode">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_1384332500" MODIFIED="1579870917943" TEXT="Default network"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_317184611" MODIFIED="1579870917943" TEXT="One subnet per region"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_1765828170" MODIFIED="1579870917943" TEXT="Regional Ip allocation"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_73592895" MODIFIED="1579870917943" TEXT="Fixed /20 subnetwork per region"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_222733405" MODIFIED="1579870917943" TEXT="Expandable up to /16"/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_1887643477" MODIFIED="1579871543088" TEXT="You can convert the automode subnetwork to a custom "/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579865998723" ID="ID_1212598972" MODIFIED="1579870892347" TEXT="Custom mode">
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579865998723" ID="ID_1926306831" MODIFIED="1579870926794" TEXT="No defaults subnets created"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579865998723" ID="ID_962779059" MODIFIED="1579870926794" TEXT="Full control of IP ranges"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579865998723" ID="ID_1914407963" MODIFIED="1579870943184" TEXT="Regional IP allocation"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579865998723" ID="ID_1886979095" MODIFIED="1579870962377" TEXT="Expandable to any RFC 1918 size"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579865998723" ID="ID_522181035" MODIFIED="1579874001258" TEXT="Recommended for production environments"/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579865998723" ID="ID_815703630" MODIFIED="1579866095713" TEXT="Default">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579870969544" ID="ID_1944084815" MODIFIED="1579870980117" TEXT="Every project"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579870969544" ID="ID_850326047" MODIFIED="1579870999530" TEXT="One subnet per region"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579870969544" ID="ID_1132395604" MODIFIED="1579871007800" TEXT="Default firewall rules"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1579873667207" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1578911422559" TEXT="A cluster is a set of master components that control the system as a whole and a set of nodes that run containers."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" FOLDED="true" ID="ID_195162391" MODIFIED="1579088903645" TEXT="pods">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1579873674248" TEXT="pods">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_953552093" MODIFIED="1578911519547" TEXT="Virtual Machine -&gt; One pod or several pods -&gt; inside each pod we can have several containers"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910779491" ID="ID_1795938580" MODIFIED="1578911410551" TEXT="A pod is the smallest deployable unit in Kubernetes(kuberneris). Think of a pod as if it were a running process on your cluster."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_203927746" MODIFIED="1578911815285" TEXT="A replica is a pod copy"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910805106" ID="ID_945299994" MODIFIED="1578911397419" TEXT="To expose the pods to internet with can connect a load balancer to it"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_259050255" MODIFIED="1578911397417" TEXT="By default, pods in a deployment are only accessible inside your cluster, to make the pods in your deployment publicly available, you can connect a load balancer to it by running the kubectl expose command"/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910902218" FOLDED="true" ID="ID_1556161931" MODIFIED="1579088900253" TEXT="Deployment">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910902218" ID="ID_1556161931" MODIFIED="1579798238241" TEXT="Deployment">
 <node BACKGROUND_COLOR="#00cccc" CREATED="1578910848731" ID="ID_919917666" MODIFIED="1578911386524" TEXT="A deployment represents a group of replicas of the same pod. It keeps your pods running even if a node on which some of them run on fails. ( Un &#x201c;deployment&#x201d; es un grupo de r&#xe9;plicas del mismo pod. Mantiene tus pods funcionando incluso si falla un nodo en el que algunos de ellos se ejecutan) "/>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910962124" FOLDED="true" ID="ID_773420388" MODIFIED="1579088899525" TEXT="Service">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910962124" FOLDED="true" ID="ID_773420388" MODIFIED="1579864776028" TEXT="Service">
 <node BACKGROUND_COLOR="#33cc00" CREATED="1578910968699" ID="ID_1988895291" MODIFIED="1578911376052" TEXT="A service is the fundamental way kubernetes represents load balancing. "/>
 <node BACKGROUND_COLOR="#33cc00" CREATED="1578910981451" ID="ID_841004772" MODIFIED="1578911376051" TEXT="A service groups a set of pods together and provides a stable endpoint for them."/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" ID="ID_1748360289" MODIFIED="1579873670648" TEXT="Node pool">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1572185476" MODIFIED="1579864394248" TEXT="It&apos;s a subset of node instances within a cluster that ll have the same configuration"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1579769813930" POSITION="right" TEXT="COMPUTE ENGINE">
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1579797774128" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1579769779817" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1579873554016" TEXT="Managed instance groups">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
@@ -461,7 +503,7 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_126935951" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_302648783" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579769776137" TEXT="Unmanaged instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579865071969" TEXT="Unmanaged instance groups">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579615415734" TEXT="Collections of instances that exist in a single  zone"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_1448932511" MODIFIED="1579615439591" TEXT="They don&apos;t share a common instance template"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_403580146" MODIFIED="1579615643239" TEXT="They don&apos;t autoscale, create,delete, the number of instances in the group."/>
@@ -469,7 +511,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_544867000" MODIFIED="1579615676759" TEXT="First time you create an unmanaged group is empty. Then you can add instances."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_892611585" MODIFIED="1579616561669" TEXT="Use unmanaged instance groups if you need to apply load balancing to groups of heterogeneous instances or if you need to manage the instances yourself."/>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_73488468" MODIFIED="1579769809656" TEXT="Target pool resources">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_73488468" MODIFIED="1579865073432" TEXT="Target pool resources">
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_961644255" MODIFIED="1579097734677" TEXT="Group of instances that receive incoming traffic from forwarding rules."/>
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_512220561" MODIFIED="1579511939417" TEXT="When a forwarding rule directs traffic to a target pool, Cloud balancing picks an instance from these target pools"/>
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_1602389694" MODIFIED="1579097734677" TEXT="Group of instances that receive incoming traffic from forwarding rules."/>
@@ -478,9 +520,9 @@
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_68785087" MODIFIED="1579512154281" TEXT="Each project can have up to 50 target pools"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" ID="ID_1785371119" MODIFIED="1579688638698" POSITION="left" TEXT="BIGDATA SERVICE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1579864781146" POSITION="left" TEXT="BIGDATA SERVICE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579082449863" ID="ID_1170137283" MODIFIED="1579082635390">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082449863" ID="ID_1170137283" MODIFIED="1579862436889">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -497,7 +539,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" FOLDED="true" ID="ID_413353756" MODIFIED="1579512447046" TEXT="Cloud Dataproc">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_413353756" MODIFIED="1579862456542" TEXT="Cloud Dataproc">
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905386420" ID="ID_831115563" MODIFIED="1579512395083" TEXT="Create clusters in 90 seconds"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905436668" ID="ID_1395101312" MODIFIED="1579512395083" TEXT="You have to pay only for hardware resources used during the life of cluster you created"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905499932" ID="ID_821609136" MODIFIED="1579512395083">
@@ -516,9 +558,9 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905499932" ID="ID_1667206649" MODIFIED="1579512395083" TEXT="data processing, analytics, and machine learning"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905499932" ID="ID_1895323435" MODIFIED="1579512395083" TEXT="You can save money using preemptible VMs in your clusters"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905485466" ID="ID_700852667" MODIFIED="1579512395081" TEXT="It&#x2019;s a great tool when you have a dataset of known size or when you want to manage your cluster size yourself."/>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1578905386420" ID="ID_10542906" MODIFIED="1579512395081" TEXT="Migrate on-premises hadoop jobs"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578905386420" ID="ID_10542906" MODIFIED="1579863908469" TEXT="Migrate on-premises hadoop jobs, spark service"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" FOLDED="true" ID="ID_76046517" MODIFIED="1579690573454" TEXT="Dataflow">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_76046517" MODIFIED="1579863947607" TEXT="Dataflow">
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_523728138" MODIFIED="1579083600275" TEXT="When your data shows up in real time"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_934539747" MODIFIED="1579083612261" TEXT="unpredictable size or rate"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_1664959723" MODIFIED="1579084058721" TEXT="data processing patterns: extract, transform and load batch computation and continuos computation"/>
@@ -528,8 +570,9 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_567788866" MODIFIED="1579088043016" TEXT="ETL(extract/transform/load) pipelines"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_776349742" MODIFIED="1579088118904" TEXT="fraud detection, financial services, IoT analytics "/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_1094938754" MODIFIED="1579512507687" TEXT="frees you from operational tasks like resource management and performance optimization"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_481534352" MODIFIED="1579863962286" TEXT="Batch processing of data"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" FOLDED="true" ID="ID_1570483524" MODIFIED="1579512591029" TEXT="Cloud Big Query">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" FOLDED="true" ID="ID_1570483524" MODIFIED="1579862440429" TEXT="Cloud Big Query">
 <arrowlink DESTINATION="ID_1570483524" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1182661749" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1570483524" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1182661749" SOURCE="ID_1570483524" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node BACKGROUND_COLOR="#66ccff" CREATED="1578905905176" ID="ID_1696997904" MODIFIED="1578906183454" TEXT="It&#x2019;s Google&#x2019;s fully-managed, petabyte-scale, low-cost analytics data warehouse"/>
@@ -539,7 +582,7 @@
 <node BACKGROUND_COLOR="#66ccff" CREATED="1578905974497" ID="ID_296035834" MODIFIED="1578910662410" TEXT="Big data analysis, to create dashboards"/>
 <node BACKGROUND_COLOR="#66ccff" CREATED="1578905974497" ID="ID_1805032301" MODIFIED="1579088757126" TEXT="Long-term storage pricing is automatic discount"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" FOLDED="true" ID="ID_1106696653" MODIFIED="1579688644401" TEXT="Pub/Sub">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" FOLDED="true" ID="ID_1106696653" MODIFIED="1579862441293" TEXT="Pub/Sub">
 <arrowlink DESTINATION="ID_1106696653" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_788090680" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1106696653" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_788090680" SOURCE="ID_1106696653" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905905176" ID="ID_566431138" MODIFIED="1579093246037" TEXT="Messaging service for events in real time"/>
@@ -570,7 +613,8 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1746650876" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_443129476" SOURCE="ID_1746650876" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579518532185" ID="ID_172324960" MODIFIED="1579518620634" TEXT="SERVICES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579518532185" ID="ID_172324960" MODIFIED="1579865106146" TEXT="SERVICES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_101717703" MODIFIED="1579770508558" TEXT="Monitoring">
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_905218884" MODIFIED="1579529786827" TEXT="It&apos;s the base of Site Reliability Engineering or SRE"/>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_499739360" MODIFIED="1579529786827" TEXT="SRE - Discipline to create ultra scalable and highly reliable software systems."/>
@@ -591,7 +635,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579530043300" ID="ID_1897369605" MODIFIED="1579530661632" TEXT="To access an AWS account, you must configure a project in GCP to hold the AWS connector"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1571966605" MODIFIED="1579770297956" TEXT="Logging">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1571966605" MODIFIED="1579796315925" TEXT="Logging">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_12341988" MODIFIED="1579598715571" TEXT="Allows you to store, search, analyze, monitor and alert on logged data and events from GCP and AWS"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1385718587" MODIFIED="1579598831672" TEXT="It can ingest application and system log data from thousands of VMs"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_1442372108" MODIFIED="1579598900505" TEXT="It lets you read and write log entries, search and filter your logs."/>
@@ -600,35 +644,35 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_231556166" MODIFIED="1579616765974" TEXT="You can use pub/sub to send logs to applications or endpoints."/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579598645503" ID="ID_339101198" MODIFIED="1579616901796" TEXT="It&apos;s a good practice to install the Logging agent on all your VM instances."/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1310878863" MODIFIED="1579769839505" TEXT="Error Reporting">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1310878863" MODIFIED="1579796436005" TEXT="Error Reporting">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_1725489634" MODIFIED="1579617006085" TEXT="It counts, analyzes, and aggregates the errors in the running cloud services."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_608959459" MODIFIED="1579617044803" TEXT="You can setup real-time notifications when new errors are detected."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_610247113" MODIFIED="1579617150132" TEXT="The exception stack trace parser can process Go, Java, Net, Nodejs, Php, Python and Ruby."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_857083479" MODIFIED="1579617218627" TEXT="It&apos;s used by App Engine Standard and it&apos;s in beta phase for App Engine Flexible"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_1707861609" MODIFIED="1579617723090" TEXT="A centralized error management interface you can sorting and filtering"/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1313827429" MODIFIED="1579769840480" TEXT="Trace">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1313827429" MODIFIED="1579865081661" TEXT="Trace">
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_168117176" MODIFIED="1579617943266" TEXT="Distributed tracing system that collects latency data from your application and displays it in the GCP console."/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_1834010889" MODIFIED="1579618045192" TEXT="You can track how request propagate through your application and receive detailed, near real-time performance insights"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_757564510" MODIFIED="1579618096727" TEXT="Automatically analyzes all of your application&apos;s traces to generate in-depth latency reports."/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_348725387" MODIFIED="1579618143073" TEXT="It can capture traces from App Engine, Http load balancers, and applications instrumented with stack driver trace api"/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_327582557" MODIFIED="1579769841361" TEXT="Debugger">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_327582557" MODIFIED="1579865080421" TEXT="Debugger">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_548069645" MODIFIED="1579618606447" TEXT="It allows you to inspect the state of a running application in real time."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_620716758" MODIFIED="1579618752445" TEXT="It help you to understand the behavior of your code in production and analyze its state"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_1347759040" MODIFIED="1579618805822" TEXT="You can take a snapshot of your application state or inject a new logging statement."/>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1579767487435" POSITION="left" TEXT="APP ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1213204346" MODIFIED="1579865066891" POSITION="left" TEXT="APP ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_40212672" MODIFIED="1579453216693" TEXT="Provide all the resources necessary to host your application. Suitable for Web apps and mobile">
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" FOLDED="true" ID="ID_1669164052" MODIFIED="1579690574916" TEXT="Flexible">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1669164052" MODIFIED="1579872147798" TEXT="Flexible">
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_1679017062" MODIFIED="1579512310889" TEXT="You can use containers with flexible app engine"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_927218934" MODIFIED="1579453578571" TEXT="Allows SSH access"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_170348933" MODIFIED="1579453624798" TEXT="Support third party binaries"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" FOLDED="true" ID="ID_180745455" MODIFIED="1579688349794" TEXT="Standard">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_180745455" MODIFIED="1579872140266" TEXT="Standard">
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453280210" ID="ID_265562281" MODIFIED="1579453307874" TEXT="Offers free daily quota"/>
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453324280" ID="ID_190654089" MODIFIED="1579453421376" TEXT="Supports java, python, go and php languages "/>
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453324280" ID="ID_1903108702" MODIFIED="1579453421377" TEXT="You can&apos;t write on file system"/>
@@ -638,6 +682,8 @@
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453280210" ID="ID_738718279" MODIFIED="1579453612680" TEXT="No Support third party binaries"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_74471713" MODIFIED="1579872377294" TEXT="Automatically balances instances of your application across multiple availability"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_1021952945" MODIFIED="1579872433818" TEXT="If the traffic slows down automatically scale the number of instances back down."/>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1447864999" MODIFIED="1579767488107" POSITION="left" TEXT="BILLING">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -651,13 +697,14 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1579769842465" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" ID="ID_1872695395" MODIFIED="1579865076179" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" ID="ID_1454561778" MODIFIED="1579693155806" POSITION="right" TEXT="DISK">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579693202389" TEXT="Local SSD">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
 </node>
 </node>
