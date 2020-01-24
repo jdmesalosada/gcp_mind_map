@@ -524,6 +524,7 @@
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_1511814388" MODIFIED="1579512051337" TEXT="A target pool can have only one health check"/>
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_68785087" MODIFIED="1579512154281" TEXT="Each project can have up to 50 target pools"/>
 </node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_685768263" MODIFIED="1579876962050" TEXT="Encrypts all data at rest."/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1579864781146" POSITION="left" TEXT="BIGDATA SERVICE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -708,30 +709,36 @@
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" ID="ID_1454561778" MODIFIED="1579693155806" POSITION="right" TEXT="DISK">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
-</node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_215536381" MODIFIED="1579875563920" TEXT="SSD Persistent disk">
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ffccff" CREATED="1579693180352" ID="ID_113181503" MODIFIED="1579874570827" TEXT="SSDs are designed to give you a higher number of IOPS per dollar versus standard disks, which will give you a higher amount of capacity for your dollar."/>
-</node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_282656742" MODIFIED="1579875131272" TEXT="HDD (standard disk)">
-<arrowlink DESTINATION="ID_282656742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_130582786" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_282656742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_130582786" SOURCE="ID_282656742" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579875133243" ID="ID_150959599" MODIFIED="1579875147943" TEXT="Persistent disks"/>
-</node>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_767961103" MODIFIED="1579875857550" TEXT="Every VM comes with a single root persistent disk where is store the base image">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_925008748" MODIFIED="1579875931318" TEXT="Persistent disk">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1579875933765" ID="ID_1566077807" MODIFIED="1579875946305" TEXT="It&apos;s not physically attached to the machine"/>
-<node CREATED="1579875933765" ID="ID_913278637" MODIFIED="1579875983989" TEXT="You can perform snapshots of these disks"/>
-<node CREATED="1579876010862" ID="ID_809903169" MODIFIED="1579876012812" TEXT="HDD"/>
-<node CREATED="1579876010862" ID="ID_197484065" MODIFIED="1579876022600" TEXT="SDD"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1579875933765" ID="ID_1566077807" MODIFIED="1579876865772" TEXT="It&apos;s not physically attached to the machine"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1579875933765" ID="ID_1307997244" MODIFIED="1579876865772" TEXT="You can perform snapshots of these disks"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1579875933765" ID="ID_1243296619" MODIFIED="1579876865772" TEXT="You can resized even while they&apos;re running and attached to a VM"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1579875933765" ID="ID_913278637" MODIFIED="1579877055034" TEXT="You can attach a disk in read mode for several VMS">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579876010862" ID="ID_809903169" MODIFIED="1579877056864" TEXT="HDD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579876010862" ID="ID_197484065" MODIFIED="1579877058588" TEXT="SDD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579693180352" ID="ID_113181503" MODIFIED="1579874570827" TEXT="SSDs are designed to give you a higher number of IOPS per dollar versus standard disks, which will give you a higher amount of capacity for your dollar."/>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_968174679" MODIFIED="1579877167990" TEXT="Ram Disk">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_1881454457" MODIFIED="1579877214603" TEXT="Faster than local disk"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_875450802" MODIFIED="1579877214603" TEXT="slower than memory"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_1916966820" MODIFIED="1579877214603" TEXT="Erase on stop or restart"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579877144463" ID="ID_443244375" MODIFIED="1579877214603" TEXT="To store data in memory"/>
 </node>
 </node>
 </node>
