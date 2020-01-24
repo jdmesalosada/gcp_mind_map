@@ -464,6 +464,11 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579870969544" ID="ID_1132395604" MODIFIED="1579871007800" TEXT="Default firewall rules"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579874264045" ID="ID_615661561" MODIFIED="1579874283345" TEXT="BASTION HOST ISOLATION">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1579874293910" ID="ID_825104801" MODIFIED="1579874382085" TEXT="A bastion host provides an external facing point of entry into a network containing private network instances."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1579874293910" ID="ID_1371013796" MODIFIED="1579874387401" TEXT="You remove the external Ip from the server."/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1579873667207" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -706,6 +711,14 @@
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_725100772" MODIFIED="1579865107810" TEXT="Local SSD">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_215536381" MODIFIED="1579874481579" TEXT="SSD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579693180352" ID="ID_113181503" MODIFIED="1579874570827" TEXT="SSDs are designed to give you a higher number of IOPS per dollar versus standard disks, which will give you a higher amount of capacity for your dollar."/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_282656742" MODIFIED="1579874492727" TEXT="HDD">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
