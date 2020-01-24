@@ -713,12 +713,25 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_215536381" MODIFIED="1579874481579" TEXT="SSD">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_215536381" MODIFIED="1579875563920" TEXT="SSD Persistent disk">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579693180352" ID="ID_113181503" MODIFIED="1579874570827" TEXT="SSDs are designed to give you a higher number of IOPS per dollar versus standard disks, which will give you a higher amount of capacity for your dollar."/>
 </node>
-<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_282656742" MODIFIED="1579874492727" TEXT="HDD">
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_282656742" MODIFIED="1579875131272" TEXT="HDD (standard disk)">
+<arrowlink DESTINATION="ID_282656742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_130582786" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_282656742" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_130582786" SOURCE="ID_282656742" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579875133243" ID="ID_150959599" MODIFIED="1579875147943" TEXT="Persistent disks"/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_767961103" MODIFIED="1579875857550" TEXT="Every VM comes with a single root persistent disk where is store the base image">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+<node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_925008748" MODIFIED="1579875931318" TEXT="Persistent disk">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1579875933765" ID="ID_1566077807" MODIFIED="1579875946305" TEXT="It&apos;s not physically attached to the machine"/>
+<node CREATED="1579875933765" ID="ID_913278637" MODIFIED="1579875983989" TEXT="You can perform snapshots of these disks"/>
+<node CREATED="1579876010862" ID="ID_809903169" MODIFIED="1579876012812" TEXT="HDD"/>
+<node CREATED="1579876010862" ID="ID_197484065" MODIFIED="1579876022600" TEXT="SDD"/>
 </node>
 </node>
 </node>
