@@ -433,9 +433,9 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_895838385" MODIFIED="1579879254032" TEXT="192.168.0.0/16 172.16.0.0/12 the smaller the number after the slash the more addresses are available"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1909565671" MODIFIED="1579967844111" TEXT="The IP range of 0.0.0.0/0 allows traffic from all source IP addresses"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" FOLDED="true" ID="ID_1988412452" MODIFIED="1579973041095" TEXT="Cloud DNS">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" ID="ID_1988412452" MODIFIED="1580042407989" TEXT="Cloud DNS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ff9999" CREATED="1579097154561" ID="ID_1116591425" MODIFIED="1579873882154" TEXT="It&apos;s a managed service providing authoritative domain naming services.">
+<node BACKGROUND_COLOR="#ff9999" CREATED="1579097154561" ID="ID_1116591425" MODIFIED="1580042446547" TEXT="Domain Name System - It&apos;s a managed service providing authoritative domain naming services.">
 <node BACKGROUND_COLOR="#999900" CREATED="1579864992342" ID="ID_1848897582" MODIFIED="1579865040798" TEXT="provides">
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579865000164" ID="ID_869836491" MODIFIED="1579865051744" TEXT="High availability"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579865000164" ID="ID_1199844310" MODIFIED="1579865051744" TEXT="low latency"/>
@@ -702,7 +702,7 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_74471713" MODIFIED="1579872377294" TEXT="Automatically balances instances of your application across multiple availability"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_1021952945" MODIFIED="1579872433818" TEXT="If the traffic slows down automatically scale the number of instances back down."/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1447864999" MODIFIED="1579973462566" POSITION="left" TEXT="BILLING">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1447864999" MODIFIED="1580043223697" POSITION="left" TEXT="BILLING">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1679611554" MODIFIED="1579689012819" TEXT="For avoid run up GCP bill we can use alerts, reports and quotas"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_745323802" MODIFIED="1579689055298" TEXT="Quotas:  Designed to prevent the over-consumption of resources">
@@ -713,6 +713,9 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689057842" ID="ID_1907855287" MODIFIED="1579689186450" TEXT="Govern the number of resources you can have in your projects. For GCP project we have a quota allowing it no more than 5 private cloud networks"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_82045314" MODIFIED="1580043271421" TEXT="You can export your bill to CSV file or JSON file"/>
+<node CREATED="1580043275984" ID="ID_1361149449" MODIFIED="1580043292863" TEXT="To export to BQ you have to create a dataset"/>
+<node CREATED="1580043275984" ID="ID_797682913" MODIFIED="1580043308645" TEXT="To export to Cloud Storage you have to create a bucket"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1579973321241" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
