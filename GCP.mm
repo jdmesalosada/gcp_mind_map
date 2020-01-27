@@ -137,7 +137,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580135607946" POSITION="right" TEXT="VPC">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580147543141" POSITION="right" TEXT="VPC">
 <arrowlink DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -360,7 +360,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" ID="ID_1922014227" MODIFIED="1580131209530" TEXT="Sharing VPC Networks">
+<node BACKGROUND_COLOR="#99ccff" CREATED="1578922161041" FOLDED="true" ID="ID_1922014227" MODIFIED="1580147539835" TEXT="Sharing VPC Networks">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578922208427" FOLDED="true" ID="ID_1246616268" MODIFIED="1580132547651" TEXT="Shared VPC">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -395,7 +395,7 @@
 </node>
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579097154561" ID="ID_1933087251" MODIFIED="1580132802724" TEXT="It&apos;s a service for mapping domain names, such as example.com, to IP addresses such as 74.120.28.18"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579865965039" ID="ID_1746957543" MODIFIED="1580131203425" TEXT="TYPES">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579865965039" FOLDED="true" ID="ID_1746957543" MODIFIED="1580147538239" TEXT="TYPES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579865998723" FOLDED="true" ID="ID_1808814916" MODIFIED="1579972826684" TEXT="Auto mode">
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579865998723" ID="ID_1384332500" MODIFIED="1579870917943" TEXT="Default network"/>
@@ -433,7 +433,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579879981398" ID="ID_1615469421" MODIFIED="1579880046534" TEXT="Protocol and port"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579879981398" ID="ID_1768060748" MODIFIED="1579880046534" TEXT="Enforcement status"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580131750645" ID="ID_1811631503" MODIFIED="1580131797256" TEXT="CONCEPTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580131750645" FOLDED="true" ID="ID_1811631503" MODIFIED="1580147537237" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1893418302" MODIFIED="1580131466935" TEXT="Virtual Networks have a global scope and subnets a regional scope"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_351013129" MODIFIED="1579865531720" TEXT="GCP automatically creates a VPC(virtual private cloud) when you create a project"/>
@@ -441,6 +441,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1909565671" MODIFIED="1579967844111" TEXT="The IP range of 0.0.0.0/0 allows traffic from all source IP addresses"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_757738188" MODIFIED="1580131527220" TEXT="Your backend servers can access Google services as machine learning or IoT services without creating a public Ip address for backend servers"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_895838385" MODIFIED="1579879254032" TEXT="192.168.0.0/16 172.16.0.0/12 the smaller the number after the slash the more addresses are available"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1814669555" MODIFIED="1580146396063" TEXT="All traffic between GCP services can be transmitted over the Google network without the need to send traffic over the public internet. "/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1579973646680" POSITION="left" TEXT="KUBERNETES ENGINE">
@@ -581,7 +582,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1580135609794" POSITION="right" TEXT="STACK DRIVER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" FOLDED="true" ID="ID_750961470" MODIFIED="1580147535985" POSITION="right" TEXT="STACK DRIVER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_232598476" MODIFIED="1579513910624" TEXT="Many GCP services have stackdriver monitoring integration built in: compute engine, app engine, kubernetes engine">
 <edge WIDTH="2"/>
@@ -692,7 +693,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" FOLDED="true" ID="ID_1454561778" MODIFIED="1580132328052" POSITION="right" TEXT="DISK">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" FOLDED="true" ID="ID_1454561778" MODIFIED="1580146139731" POSITION="right" TEXT="DISK">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99ff99" CREATED="1579693169488" ID="ID_767961103" MODIFIED="1579875857550" TEXT="Every VM comes with a single root persistent disk where is store the base image">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -830,11 +831,18 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1580131706796" ID="ID_558252208" MODIFIED="1580132252469" TEXT="Allows and restricts access based on the geolocation of incoming traffic"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_635599218" MODIFIED="1580132543268" POSITION="right" TEXT="CLOUD CDN">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_635599218" MODIFIED="1580147548649" POSITION="right" TEXT="CLOUD CDN">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_878893347" MODIFIED="1580132476196" TEXT="CDNs -&gt; Content Delivery Networks"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1743801606" MODIFIED="1580132412324" TEXT="Enable low-latency response to these request by caching content"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1335907313" MODIFIED="1580132510532" TEXT="They&apos;re especially for sites with large amounts of static content and a global audience"/>
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_622846381" MODIFIED="1580147569850" POSITION="right" TEXT="APIGEE PLATFORM">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_367626973" MODIFIED="1580147604112" TEXT="Management service for GCP customers providing API access to their applications"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_226401771" MODIFIED="1580147618406" TEXT="The Apigee platform allows developers to deploy, monitor, and secure their APIs."/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_677945124" MODIFIED="1580147642229" TEXT="Provides routing and rate-limiting based on policies custom- ers can define"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_188526052" MODIFIED="1580147690246" TEXT="Data is encrypted both in transit and at rest"/>
 </node>
 </node>
 </map>
