@@ -471,7 +471,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1579874293910" ID="ID_825104801" MODIFIED="1579874382085" TEXT="A bastion host provides an external facing point of entry into a network containing private network instances."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1579874293910" ID="ID_1371013796" MODIFIED="1579874387401" TEXT="You remove the external Ip from the server."/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579874264045" FOLDED="true" ID="ID_1027749726" MODIFIED="1579973043652" TEXT="FIREWALL RULES STRUCTURE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579874264045" ID="ID_1027749726" MODIFIED="1580110351086" TEXT="FIREWALL RULES STRUCTURE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579879981398" ID="ID_1538153924" MODIFIED="1579880046534" TEXT="Direction"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579879981398" ID="ID_1229143558" MODIFIED="1579880046534" TEXT="Priority"/>
@@ -505,9 +505,9 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1572185476" MODIFIED="1579864394248" TEXT="It&apos;s a subset of node instances within a cluster that ll have the same configuration"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1579973104677" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580112968583" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1579973070991" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580112976671" TEXT="Managed instance groups">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
@@ -519,6 +519,9 @@
 </node>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924358526" ID="ID_126935951" MODIFIED="1579013821230" TEXT="You can autoscaling based on: cpu utilization, load balancing capacity, monitoring metrics, Queue-based workload"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_302648783" MODIFIED="1579013821229" TEXT="You can configure healthchecks"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_1341908832" MODIFIED="1580113014895" TEXT="AUTOSCALING: Add or remove VMs from the cluster based on the workload">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579973046037" TEXT="Unmanaged instance groups">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579615415734" TEXT="Collections of instances that exist in a single  zone"/>
@@ -537,6 +540,13 @@
 <node BACKGROUND_COLOR="#999900" CREATED="1578923714291" ID="ID_68785087" MODIFIED="1579512154281" TEXT="Each project can have up to 50 target pools"/>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_685768263" MODIFIED="1579876962050" TEXT="Encrypts all data at rest."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1524099037" MODIFIED="1580120955741" TEXT="VMs run within a low-level service called a hypervisor"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_500929298" MODIFIED="1580120978607" TEXT="VMS are IaaS (Infrastructure as a Service)"/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1015607704" MODIFIED="1580121231426" TEXT="Preemtible VM">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_95308654" MODIFIED="1580121161902" TEXT="making a VM preemptible, means you may be charged significantly less for the VM than normal (around 80 percent less),"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1921195499" MODIFIED="1580121266136" TEXT="Your VM could be shut down at any time by Google."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_716945689" MODIFIED="1580121280402" TEXT=" It will frequently be shut down if the preemptible VM has run for at least 24 hours."/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1579973649073" POSITION="left" TEXT="BIGDATA SERVICE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -681,13 +691,16 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1579973487336" POSITION="left" TEXT="APP ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1580122715539" POSITION="left" TEXT="APP ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_74471713" MODIFIED="1579872377294" TEXT="Automatically balances instances of your application across multiple availability"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_1021952945" MODIFIED="1579872433818" TEXT="If the traffic slows down automatically scale the number of instances back down."/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_40212672" MODIFIED="1579453216693" TEXT="Provide all the resources necessary to host your application. Suitable for Web apps and mobile">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1669164052" MODIFIED="1579872147798" TEXT="Flexible">
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_1679017062" MODIFIED="1579512310889" TEXT="You can use containers with flexible app engine"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_927218934" MODIFIED="1579453578571" TEXT="Allows SSH access"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_170348933" MODIFIED="1579453624798" TEXT="Support third party binaries"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578905905176" ID="ID_893145399" MODIFIED="1580122524081" TEXT="You can write to local disk"/>
 </node>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_180745455" MODIFIED="1579872140266" TEXT="Standard">
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453280210" ID="ID_265562281" MODIFIED="1579453307874" TEXT="Offers free daily quota"/>
@@ -699,10 +712,9 @@
 <node BACKGROUND_COLOR="#33ffcc" CREATED="1579453280210" ID="ID_738718279" MODIFIED="1579453612680" TEXT="No Support third party binaries"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_74471713" MODIFIED="1579872377294" TEXT="Automatically balances instances of your application across multiple availability"/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_1021952945" MODIFIED="1579872433818" TEXT="If the traffic slows down automatically scale the number of instances back down."/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_527725756" MODIFIED="1580122712082" TEXT="Serverless product"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1447864999" MODIFIED="1579973462566" POSITION="left" TEXT="BILLING">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1447864999" MODIFIED="1580122544682" POSITION="left" TEXT="BILLING">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1679611554" MODIFIED="1579689012819" TEXT="For avoid run up GCP bill we can use alerts, reports and quotas"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_745323802" MODIFIED="1579689055298" TEXT="Quotas:  Designed to prevent the over-consumption of resources">
@@ -756,6 +768,13 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_754917250" MODIFIED="1579693222545" TEXT="If your application needs high performance scratch space you can attach a local SSD. Local SSD content doesn&#x2019;t last past when the VM terminates. (El contenido almancenado en un SSD dura solo hasta cuando la VM se termina) "/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
 </node>
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1351901515" MODIFIED="1580122563451" POSITION="left" TEXT="CLOUD FUNCTIONS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_872967413" MODIFIED="1580122598384" TEXT="Lightweight compute option for event-driven processing"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1809482279" MODIFIED="1580122640983" TEXT="Run code in response to an event like a file being uploaded to cloud storage"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1558499815" MODIFIED="1580122688729" TEXT="Serverless product"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_981012108" MODIFIED="1580122765251" TEXT="Automatically scale as load increases."/>
 </node>
 </node>
 </map>
