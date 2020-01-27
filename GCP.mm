@@ -137,7 +137,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" ID="ID_271345473" MODIFIED="1580132544518" POSITION="right" TEXT="VPC">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580135607946" POSITION="right" TEXT="VPC">
 <arrowlink DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_271345473" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_686081005" SOURCE="ID_271345473" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -581,7 +581,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" FOLDED="true" ID="ID_750961470" MODIFIED="1579973329460" POSITION="right" TEXT="STACK DRIVER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1580135609794" POSITION="right" TEXT="STACK DRIVER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_232598476" MODIFIED="1579513910624" TEXT="Many GCP services have stackdriver monitoring integration built in: compute engine, app engine, kubernetes engine">
 <edge WIDTH="2"/>
@@ -601,7 +601,7 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1746650876" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_443129476" SOURCE="ID_1746650876" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579518532185" FOLDED="true" ID="ID_172324960" MODIFIED="1579973328132" TEXT="SERVICES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579518532185" ID="ID_172324960" MODIFIED="1580135611756" TEXT="SERVICES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_101717703" MODIFIED="1579973229974" TEXT="Monitoring">
 <node BACKGROUND_COLOR="#ff9999" CREATED="1579529639284" ID="ID_905218884" MODIFIED="1579529786827" TEXT="It&apos;s the base of Site Reliability Engineering or SRE"/>
@@ -639,13 +639,14 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_857083479" MODIFIED="1579617218627" TEXT="It&apos;s used by App Engine Standard and it&apos;s in beta phase for App Engine Flexible"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579616945515" ID="ID_1707861609" MODIFIED="1579617723090" TEXT="A centralized error management interface you can sorting and filtering"/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_1313827429" MODIFIED="1579973285705" TEXT="Trace">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_1313827429" MODIFIED="1580135614438" TEXT="Trace">
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_168117176" MODIFIED="1579617943266" TEXT="Distributed tracing system that collects latency data from your application and displays it in the GCP console."/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_1834010889" MODIFIED="1579618045192" TEXT="You can track how request propagate through your application and receive detailed, near real-time performance insights"/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_757564510" MODIFIED="1579618096727" TEXT="Automatically analyzes all of your application&apos;s traces to generate in-depth latency reports."/>
 <node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_348725387" MODIFIED="1579618143073" TEXT="It can capture traces from App Engine, Http load balancers, and applications instrumented with stack driver trace api"/>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1579616945515" ID="ID_544825963" MODIFIED="1580135652186" TEXT="It can help you to identify performance problem areas."/>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" FOLDED="true" ID="ID_327582557" MODIFIED="1579973310400" TEXT="Debugger">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579518545482" ID="ID_327582557" MODIFIED="1580135659968" TEXT="Debugger">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_548069645" MODIFIED="1579618606447" TEXT="It allows you to inspect the state of a running application in real time."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_620716758" MODIFIED="1579618752445" TEXT="It help you to understand the behavior of your code in production and analyze its state"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579618545399" ID="ID_1347759040" MODIFIED="1579618805822" TEXT="You can take a snapshot of your application state or inject a new logging statement."/>
