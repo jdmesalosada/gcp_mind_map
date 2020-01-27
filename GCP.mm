@@ -3,12 +3,12 @@
 <node BACKGROUND_COLOR="#ff6666" CREATED="1578905149988" ID="ID_1789389173" MODIFIED="1579688774487" STYLE="bubble" TEXT="GCP">
 <edge STYLE="linear"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578905159096" FOLDED="true" ID="ID_1365779485" MODIFIED="1580132334427" POSITION="right" TEXT="STORAGE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578905159096" ID="ID_1365779485" MODIFIED="1580149158539" POSITION="right" TEXT="STORAGE">
 <edge WIDTH="2"/>
 <arrowlink DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1365779485" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_97355191" SOURCE="ID_1365779485" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578906556823" ID="ID_1043998882" MODIFIED="1580130745057" TEXT="Services">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578906556823" FOLDED="true" ID="ID_1043998882" MODIFIED="1580151421681" TEXT="Services">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1578906450950" FOLDED="true" ID="ID_1919613632" MODIFIED="1580124532838" TEXT="Cloud storage">
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1393687566" MODIFIED="1578906672917" TEXT="Store objects with unique key. The key is the url"/>
@@ -79,10 +79,11 @@
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_262399359" MODIFIED="1580130826327" TEXT="It&apos;s a managed Redis service for caching frequently used data in memory."/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_297965500" MODIFIED="1580130894167" TEXT="It&apos;&apos;s used to reduce the time needed ro read data into an application."/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1578906450950" ID="ID_534927935" MODIFIED="1580130984870" TEXT="Cloud FireStore">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1578906450950" FOLDED="true" ID="ID_534927935" MODIFIED="1580151420578" TEXT="Cloud FireStore">
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1302533737" MODIFIED="1580130994615" TEXT="No Sql database"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_963815869" MODIFIED="1580131023895" TEXT="For highly scalable web and mobile applications"/>
 <node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1216378869" MODIFIED="1580131062247" TEXT="its client libraries provide offline support and synchronization"/>
+<node BACKGROUND_COLOR="#ff6600" CREATED="1578906464136" ID="ID_1648416466" MODIFIED="1580149219801" TEXT="Mobile databse that can synchronize data between mobile devices and centralized storage"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578907670591" ID="ID_612982530" MODIFIED="1580130746030" TEXT="Storage Classes">
@@ -103,9 +104,9 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580132347851" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580150027650" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" FOLDED="true" ID="ID_340129391" MODIFIED="1579973694644" TEXT="To control who can do what">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_340129391" MODIFIED="1580152046567" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1488320183" MODIFIED="1579689280675" TEXT="Projects, folders and organizations nodes are all places where the policies can be defined."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1967154767" MODIFIED="1579689305698" TEXT="The policies are inherited downwards in the hierarchy. (Las pol&#xed;ticas se heredan hacia abajo en la jerarqu&#xed;a)."/>
@@ -116,8 +117,10 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_736621533" MODIFIED="1579690106832" TEXT="Google groups are a convenient way to apply an access policy to a collection of users"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1309652372" MODIFIED="1579690267616" TEXT="A policy contains a set of roles and roles members"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1486968084" MODIFIED="1579690784669" TEXT="There are 5 types of members: google accounts, services accounts, google groups, G Suite Domains, and Cloud identity domains(it&apos;s like GSuite Domain  it represents a virtual group of all Google Accounts in an organization but  users don&apos;t have access to G Suite applications and features)"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_471108149" MODIFIED="1580152068427" TEXT="A role is a collection of permissions"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1096951965" MODIFIED="1580152132222" TEXT="An identity could be a human user or a service account"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_640547831" MODIFIED="1580132340088" TEXT="TYPE OF ROLES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_640547831" MODIFIED="1580151411428" TEXT="TYPE OF ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_684395744" MODIFIED="1579690518899" TEXT="Primitive">
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579689848529" ID="ID_1130473462" MODIFIED="1579690041906" TEXT="Owner">
@@ -135,6 +138,26 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_423510132" MODIFIED="1579690487525" TEXT="The predefined roles in GCP allow you to have a list of roles with specific permissions to specific resources, this make easier to manage the access. For example: compute admin, network admin, storage admin."/>
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1169537103" MODIFIED="1580152042384" TEXT="ROLES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1005802335" MODIFIED="1580150098226" TEXT="Organization Administrator IAM">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_1748101313" MODIFIED="1580150116952" TEXT="Defining the structure of the resource hierarchy"/>
+<node CREATED="1580150119860" ID="ID_1981987493" MODIFIED="1580150127520" TEXT="Defining identity access management policies over the resource hierarchy"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_582261868" MODIFIED="1580150140892" TEXT="Delegating other management roles to other users"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580151409499" TEXT="PROJECTS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1788004815" MODIFIED="1580151085266" TEXT="You need the resourcemanager.project.create IAM permission to create projects"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_52740359" MODIFIED="1580151210578" TEXT="In Projects we create resources,  use GCP services, manage permissions, and manage billing options"/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_1527572519" MODIFIED="1580151407313" TEXT="ORGANIZATION POLICIES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1769624259" MODIFIED="1580151455567" TEXT="GCP provides an Organization Policy Service"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_51260085" MODIFIED="1580151516952" TEXT="Controls access to an organization&#xb4;s resources"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_785432840" MODIFIED="1580151584072" TEXT="It lets you specify limits on the ways resources can be used"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1053345406" MODIFIED="1580151618511" TEXT="One way to think of the difference is that IAM specifies who can do things, and the Organization Policy Service specifies what can be done with resources."/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580147543141" POSITION="right" TEXT="VPC">
@@ -510,7 +533,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_716945689" MODIFIED="1580121280402" TEXT=" It will frequently be shut down if the preemptible VM has run for at least 24 hours."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1579973649073" POSITION="left" TEXT="BIGDATA SERVICE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1580148769768" POSITION="left" TEXT="BIGDATA SERVICE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082449863" ID="ID_1170137283" MODIFIED="1579862436889">
 <richcontent TYPE="NODE"><html>
@@ -529,7 +552,7 @@
     </p>
   </body>
 </html></richcontent>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" FOLDED="true" ID="ID_413353756" MODIFIED="1579973546644" TEXT="Cloud Dataproc">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905348587" ID="ID_413353756" MODIFIED="1580148653568" TEXT="Cloud Dataproc">
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905386420" ID="ID_831115563" MODIFIED="1579512395083" TEXT="Create clusters in 90 seconds"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905436668" ID="ID_1395101312" MODIFIED="1579512395083" TEXT="You have to pay only for hardware resources used during the life of cluster you created"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578905499932" ID="ID_821609136" MODIFIED="1579512395083">
@@ -561,7 +584,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_1094938754" MODIFIED="1579512507687" TEXT="frees you from operational tasks like resource management and performance optimization"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578905386420" ID="ID_481534352" MODIFIED="1579863962286" TEXT="Batch processing of data"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" FOLDED="true" ID="ID_1570483524" MODIFIED="1579973507557" TEXT="Cloud Big Query">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905244258" ID="ID_1570483524" MODIFIED="1580148663903" TEXT="Cloud Big Query">
 <arrowlink DESTINATION="ID_1570483524" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1182661749" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1570483524" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1182661749" SOURCE="ID_1570483524" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node BACKGROUND_COLOR="#66ccff" CREATED="1578905905176" ID="ID_1696997904" MODIFIED="1578906183454" TEXT="It&#x2019;s Google&#x2019;s fully-managed, petabyte-scale, low-cost analytics data warehouse"/>
@@ -654,7 +677,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1580122715539" POSITION="left" TEXT="APP ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1213204346" MODIFIED="1580150026145" POSITION="left" TEXT="APP ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_74471713" MODIFIED="1579872377294" TEXT="Automatically balances instances of your application across multiple availability"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_1021952945" MODIFIED="1579872433818" TEXT="If the traffic slows down automatically scale the number of instances back down."/>
@@ -837,12 +860,13 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1743801606" MODIFIED="1580132412324" TEXT="Enable low-latency response to these request by caching content"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1335907313" MODIFIED="1580132510532" TEXT="They&apos;re especially for sites with large amounts of static content and a global audience"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_622846381" MODIFIED="1580147569850" POSITION="right" TEXT="APIGEE PLATFORM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_622846381" MODIFIED="1580151418946" POSITION="right" TEXT="APIGEE PLATFORM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_367626973" MODIFIED="1580147604112" TEXT="Management service for GCP customers providing API access to their applications"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_226401771" MODIFIED="1580147618406" TEXT="The Apigee platform allows developers to deploy, monitor, and secure their APIs."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_677945124" MODIFIED="1580147642229" TEXT="Provides routing and rate-limiting based on policies custom- ers can define"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_188526052" MODIFIED="1580147690246" TEXT="Data is encrypted both in transit and at rest"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1616452729" MODIFIED="1580149055590" TEXT="Provides OUAT2 and SAML authentication"/>
 </node>
 </node>
 </map>
