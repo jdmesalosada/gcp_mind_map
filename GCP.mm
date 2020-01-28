@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580226273018" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580238252068" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_340129391" MODIFIED="1580226041688" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
@@ -559,6 +559,8 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_95308654" MODIFIED="1580121161902" TEXT="making a VM preemptible, means you may be charged significantly less for the VM than normal (around 80 percent less),"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1921195499" MODIFIED="1580121266136" TEXT="Your VM could be shut down at any time by Google."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_716945689" MODIFIED="1580121280402" TEXT=" It will frequently be shut down if the preemptible VM has run for at least 24 hours."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_276584533" MODIFIED="1580240384413" TEXT="May terminate at any time. If they terminate within 10 minutes of starting, you will not be charged for that time."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_286279369" MODIFIED="1580240416021" TEXT="Not covered by any SLA"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1968812281" MODIFIED="1580226496842" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -566,10 +568,32 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_222785138" MODIFIED="1580226509241" TEXT="You have windows and linux images"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_1347577503" MODIFIED="1580226529047" TEXT="You have images from Google and third party vendors"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_861343732" MODIFIED="1580226612729" TEXT="You can create your own images from a boot disk or from another image"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_147860697" MODIFIED="1580239682049" TEXT="Costs can vary between regions"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_84957165" MODIFIED="1580239742963" TEXT="Hardware platforms can vary between regions"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_499722493" MODIFIED="1580226835114" TEXT="SNAPSHOTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1671546273" MODIFIED="1580226941255" TEXT="You can take a snapshot of a Compute Engine(VM) persistent disk to quickly backup the disk so you can recover lost data, transfer contents to a new disk."/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_512206269" MODIFIED="1580239114979" TEXT="IMAGES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1096884277" MODIFIED="1580239189804" TEXT="Custom Images are useful if you have to configure an operating system and install additional software on each instance of a VM that you run."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1572110890" MODIFIED="1580239290122" TEXT="You can import your custom images from your local environment."/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_561049575" MODIFIED="1580239826339" TEXT="ROLES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_964535113" MODIFIED="1580239837104" TEXT="COMPUTE ENGINE ADMIN">
+<node CREATED="1580239897018" ID="ID_1213181914" MODIFIED="1580239898207" TEXT="Users with this role have full control over Compute Engine instances."/>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_531704213" MODIFIED="1580239852358" TEXT="COMPUTE ENGINE NETWORK ADMIN">
+<node CREATED="1580239908261" ID="ID_1962468704" MODIFIED="1580239908741" TEXT="Users with this role can create, modify, and delete most networking resources, and it provides read-only access to firewall rules and SSL certifica- tions. This role does not give the user permission to create or alter instances."/>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_420764665" MODIFIED="1580239871276" TEXT="COMPUTE ENGINE SECURITY ADMIN">
+<node CREATED="1580239918306" ID="ID_1810371962" MODIFIED="1580239918783" TEXT="Users with this role can create, modify, and delete SSL certificates and firewall rules."/>
+</node>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1133626075" MODIFIED="1580239885750" TEXT="COMPUTE ENGINE VIEWER">
+<node CREATED="1580239931954" ID="ID_167955117" MODIFIED="1580239932347" TEXT="Users with this role can get and list Compute Engine resources but cannot read data from those resources."/>
+</node>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1580226398009" POSITION="left" TEXT="BIGDATA SERVICE">
