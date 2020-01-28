@@ -120,6 +120,9 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_471108149" MODIFIED="1580152068427" TEXT="A role is a collection of permissions"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1726220101" MODIFIED="1580152132222" TEXT="An identity could be a human user or a service account"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1096951965" MODIFIED="1580202600895" TEXT="Permissions are not assigned to users they are assigned to roles"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1489760734" MODIFIED="1580224900302" TEXT="When a user is granted iam.serviceAccountUser at the project level, that user can manage all service accounts in the project. If a new service account is created, they will automatically have privilege to manage that service account. ">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_640547831" MODIFIED="1580202391366" TEXT="TYPE OF ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -140,7 +143,7 @@
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1169537103" MODIFIED="1580204585373" TEXT="ROLES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_1169537103" MODIFIED="1580224855229" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1005802335" MODIFIED="1580150098226" TEXT="Organization Administrator IAM">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_1748101313" MODIFIED="1580150116952" TEXT="Defining the structure of the resource hierarchy"/>
@@ -148,7 +151,7 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_582261868" MODIFIED="1580150140892" TEXT="Delegating other management roles to other users"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580210511867" TEXT="PROJECTS">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_1293941710" MODIFIED="1580223783644" TEXT="PROJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1788004815" MODIFIED="1580151085266" TEXT="You need the resourcemanager.project.create IAM permission to create projects"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_52740359" MODIFIED="1580151210578" TEXT="In Projects we create resources,  use GCP services, manage permissions, and manage billing options"/>
