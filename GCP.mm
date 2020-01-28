@@ -164,7 +164,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_670368181" MODIFIED="1580204645399" TEXT="Store information about to pay charges for resources used"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1081564213" MODIFIED="1580204673224" TEXT="You can associate one or more projects to a billing account"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1572775674" MODIFIED="1580204767893" TEXT="You can export a billing information to Json or CSV"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1152916523" MODIFIED="1580204767893" TEXT="You can export a billing information to Json or CSV"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1572775674" MODIFIED="1580210037038" TEXT="A budget is associate with a billing account, not a project"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580205148016" ID="ID_62685480" MODIFIED="1580205290642" TEXT="Roles">
 <node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_607305522" MODIFIED="1580205306708" TEXT="Billing Account Creator, which can create new self-service billing accounts"/>
 <node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_1300286384" MODIFIED="1580205306708" TEXT="Billing Account Administrator, which manages billing accounts but cannot create them"/>
