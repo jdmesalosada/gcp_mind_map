@@ -104,9 +104,9 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580224967303" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580226039993" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" FOLDED="true" ID="ID_340129391" MODIFIED="1580224959591" TEXT="To control who can do what">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_340129391" MODIFIED="1580226041688" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1488320183" MODIFIED="1579689280675" TEXT="Projects, folders and organizations nodes are all places where the policies can be defined."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1967154767" MODIFIED="1579689305698" TEXT="The policies are inherited downwards in the hierarchy. (Las pol&#xed;ticas se heredan hacia abajo en la jerarqu&#xed;a)."/>
@@ -123,6 +123,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1489760734" MODIFIED="1580224900302" TEXT="When a user is granted iam.serviceAccountUser at the project level, that user can manage all service accounts in the project. If a new service account is created, they will automatically have privilege to manage that service account. ">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1563121737" MODIFIED="1580226194442" TEXT="By default all users can create projects"/>
 </node>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_640547831" MODIFIED="1580224961038" TEXT="TYPE OF ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
