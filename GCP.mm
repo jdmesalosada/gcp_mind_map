@@ -148,7 +148,7 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_582261868" MODIFIED="1580150140892" TEXT="Delegating other management roles to other users"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580204584079" TEXT="PROJECTS">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580210511867" TEXT="PROJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1788004815" MODIFIED="1580151085266" TEXT="You need the resourcemanager.project.create IAM permission to create projects"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_52740359" MODIFIED="1580151210578" TEXT="In Projects we create resources,  use GCP services, manage permissions, and manage billing options"/>
@@ -165,7 +165,8 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_670368181" MODIFIED="1580204645399" TEXT="Store information about to pay charges for resources used"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1081564213" MODIFIED="1580204673224" TEXT="You can associate one or more projects to a billing account"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1152916523" MODIFIED="1580204767893" TEXT="You can export a billing information to Json or CSV"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1572775674" MODIFIED="1580210037038" TEXT="A budget is associate with a billing account, not a project"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1746786683" MODIFIED="1580210632797" TEXT="You can export a billing information to Json or CSV but first you need to create a bucket in cloud storage"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1572775674" MODIFIED="1580210571420" TEXT="You can export to big query but you first need to create a dataset"/>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580205148016" ID="ID_62685480" MODIFIED="1580205290642" TEXT="Roles">
 <node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_607305522" MODIFIED="1580205306708" TEXT="Billing Account Creator, which can create new self-service billing accounts"/>
 <node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_1300286384" MODIFIED="1580205306708" TEXT="Billing Account Administrator, which manages billing accounts but cannot create them"/>
