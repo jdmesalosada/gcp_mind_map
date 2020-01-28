@@ -118,9 +118,10 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1309652372" MODIFIED="1579690267616" TEXT="A policy contains a set of roles and roles members"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1486968084" MODIFIED="1579690784669" TEXT="There are 5 types of members: google accounts, services accounts, google groups, G Suite Domains, and Cloud identity domains(it&apos;s like GSuite Domain  it represents a virtual group of all Google Accounts in an organization but  users don&apos;t have access to G Suite applications and features)"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_471108149" MODIFIED="1580152068427" TEXT="A role is a collection of permissions"/>
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1096951965" MODIFIED="1580152132222" TEXT="An identity could be a human user or a service account"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1726220101" MODIFIED="1580152132222" TEXT="An identity could be a human user or a service account"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1096951965" MODIFIED="1580202600895" TEXT="Permissions are not assigned to users they are assigned to roles"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_640547831" MODIFIED="1580151411428" TEXT="TYPE OF ROLES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_640547831" MODIFIED="1580202391366" TEXT="TYPE OF ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_684395744" MODIFIED="1579690518899" TEXT="Primitive">
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579689848529" ID="ID_1130473462" MODIFIED="1579690041906" TEXT="Owner">
@@ -139,7 +140,7 @@
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_57449915" MODIFIED="1579689834809" TEXT="Custom"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1169537103" MODIFIED="1580152042384" TEXT="ROLES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1169537103" MODIFIED="1580204585373" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1005802335" MODIFIED="1580150098226" TEXT="Organization Administrator IAM">
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_1748101313" MODIFIED="1580150116952" TEXT="Defining the structure of the resource hierarchy"/>
@@ -147,7 +148,7 @@
 <node BACKGROUND_COLOR="#ccccff" CREATED="1579690455766" ID="ID_582261868" MODIFIED="1580150140892" TEXT="Delegating other management roles to other users"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580151409499" TEXT="PROJECTS">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1293941710" MODIFIED="1580204584079" TEXT="PROJECTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1788004815" MODIFIED="1580151085266" TEXT="You need the resourcemanager.project.create IAM permission to create projects"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_52740359" MODIFIED="1580151210578" TEXT="In Projects we create resources,  use GCP services, manage permissions, and manage billing options"/>
@@ -158,6 +159,26 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_51260085" MODIFIED="1580151516952" TEXT="Controls access to an organization&#xb4;s resources"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_785432840" MODIFIED="1580151584072" TEXT="It lets you specify limits on the ways resources can be used"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1053345406" MODIFIED="1580151618511" TEXT="One way to think of the difference is that IAM specifies who can do things, and the Organization Policy Service specifies what can be done with resources."/>
+</node>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_625858381" MODIFIED="1580204624626" TEXT="BILLING ACCOUNT">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_670368181" MODIFIED="1580204645399" TEXT="Store information about to pay charges for resources used"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1081564213" MODIFIED="1580204673224" TEXT="You can associate one or more projects to a billing account"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_1572775674" MODIFIED="1580204767893" TEXT="You can export a billing information to Json or CSV"/>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580205148016" ID="ID_62685480" MODIFIED="1580205290642" TEXT="Roles">
+<node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_607305522" MODIFIED="1580205306708" TEXT="Billing Account Creator, which can create new self-service billing accounts"/>
+<node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_1300286384" MODIFIED="1580205306708" TEXT="Billing Account Administrator, which manages billing accounts but cannot create them"/>
+<node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_128458352" MODIFIED="1580205306708" TEXT="Billing Account User, which enables a user to link projects to billing accounts"/>
+<node BACKGROUND_COLOR="#999900" CREATED="1580205155087" ID="ID_1933112444" MODIFIED="1580205306708" TEXT="Billing Account Viewer, which enables a user to view billing account cost and transactions"/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1580205203190" ID="ID_52388583" MODIFIED="1580205297355" TEXT="Types">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1580205209769" ID="ID_1017168068" MODIFIED="1580205316002" TEXT="Self-serve">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1580205232680" ID="ID_1159136803" MODIFIED="1580205316003" TEXT="Accounts are paid by credit card or direct from debit from a bank account"/>
+</node>
+<node BACKGROUND_COLOR="#ffccff" CREATED="1580205209769" ID="ID_417503641" MODIFIED="1580205316003" TEXT="Invoiced">
+<node BACKGROUND_COLOR="#ffccff" CREATED="1580205264689" ID="ID_1340945203" MODIFIED="1580205316003" TEXT="Bill or invoices are sent to customer. This is for large enterprises or customers"/>
+</node>
+</node>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580147543141" POSITION="right" TEXT="VPC">
@@ -605,7 +626,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" FOLDED="true" ID="ID_750961470" MODIFIED="1580147535985" POSITION="right" TEXT="STACK DRIVER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579095659500" ID="ID_750961470" MODIFIED="1580198246873" POSITION="right" TEXT="STACK DRIVER">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578905159096" ID="ID_232598476" MODIFIED="1579513910624" TEXT="Many GCP services have stackdriver monitoring integration built in: compute engine, app engine, kubernetes engine">
 <edge WIDTH="2"/>
