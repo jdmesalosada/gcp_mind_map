@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580238252068" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580286003800" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_340129391" MODIFIED="1580226041688" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
@@ -494,17 +494,24 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1814669555" MODIFIED="1580146396063" TEXT="All traffic between GCP services can be transmitted over the Google network without the need to send traffic over the public internet. "/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1579973646680" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1580286005222" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
-<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1578911422559" TEXT="A cluster is a set of master components that control the system as a whole and a set of nodes that run containers."/>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1579873674248" TEXT="pods">
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_953552093" MODIFIED="1578911519547" TEXT="Virtual Machine -&gt; One pod or several pods -&gt; inside each pod we can have several containers"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1583512292" MODIFIED="1580286117792" TEXT="Automatic upgrading of cluster software as needed"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_417705582" MODIFIED="1578911422559" TEXT="A cluster is a set of master components that control the system as a whole and a set of nodes that run containers."/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_145678036" MODIFIED="1580286189328" TEXT="Automatic scaling of nodes(VMs) in the cluster"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_625100435" MODIFIED="1580286117792" TEXT="Automatic upgrading of cluster software as needed"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1580286314975" TEXT="It includes a master node and one or more worker nodes"/>
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1580286539130" TEXT="PODS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_953552093" MODIFIED="1580286497586" TEXT="A Virtual Machine -&gt; Can have pne pod or several pods -&gt; inside each pod we can have several containers"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910779491" ID="ID_1795938580" MODIFIED="1578911410551" TEXT="A pod is the smallest deployable unit in Kubernetes(kuberneris). Think of a pod as if it were a running process on your cluster."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_203927746" MODIFIED="1578911815285" TEXT="A replica is a pod copy"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910805106" ID="ID_945299994" MODIFIED="1578911397419" TEXT="To expose the pods to internet with can connect a load balancer to it"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_259050255" MODIFIED="1578911397417" TEXT="By default, pods in a deployment are only accessible inside your cluster, to make the pods in your deployment publicly available, you can connect a load balancer to it by running the kubectl expose command"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_967517922" MODIFIED="1578911397417" TEXT="By default, pods in a deployment are only accessible inside your cluster, to make the pods in your deployment publicly available, you can connect a load balancer to it by running the kubectl expose command"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_363239552" MODIFIED="1580286443975" TEXT="Containers within a single pod share storage and network resources"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_259050255" MODIFIED="1580286602514" TEXT="Containers within a pod share an Ip address and port space"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910902218" ID="ID_1556161931" MODIFIED="1579798238241" TEXT="Deployment">
 <node BACKGROUND_COLOR="#00cccc" CREATED="1578910848731" ID="ID_919917666" MODIFIED="1578911386524" TEXT="A deployment represents a group of replicas of the same pod. It keeps your pods running even if a node on which some of them run on fails. ( Un &#x201c;deployment&#x201d; es un grupo de r&#xe9;plicas del mismo pod. Mantiene tus pods funcionando incluso si falla un nodo en el que algunos de ellos se ejecutan) "/>
 </node>
@@ -514,12 +521,16 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" ID="ID_1748360289" MODIFIED="1579873670648" TEXT="Node pool">
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1572185476" MODIFIED="1579864394248" TEXT="It&apos;s a subset of node instances within a cluster that ll have the same configuration"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1572185476" MODIFIED="1580286093813" TEXT="It&apos;s a subset or collection of nodes instances within a cluster that all have the same configuration"/>
+</node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" ID="ID_665104683" MODIFIED="1580286206224" TEXT="Node">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1061006113" MODIFIED="1580286215279" TEXT="It&apos;s a VMs inside the cluster"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580226403732" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580112976671" TEXT="Managed instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580285782204" TEXT="MANAGED INSTANCE GROUPS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
@@ -534,8 +545,10 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_1341908832" MODIFIED="1580113014895" TEXT="AUTOSCALING: Add or remove VMs from the cluster based on the workload">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1923111904" MODIFIED="1580285651009" TEXT="Cannot be set to automatically restart"/>
 </node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1579973046037" TEXT="Unmanaged instance groups">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1580285781064" TEXT="UNMANAGED INSTANCE GROUPS">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_385152956" MODIFIED="1579615415734" TEXT="Collections of instances that exist in a single  zone"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_1448932511" MODIFIED="1579615439591" TEXT="They don&apos;t share a common instance template"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923714291" ID="ID_403580146" MODIFIED="1579615643239" TEXT="They don&apos;t autoscale, create,delete, the number of instances in the group."/>
@@ -561,6 +574,8 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_716945689" MODIFIED="1580121280402" TEXT=" It will frequently be shut down if the preemptible VM has run for at least 24 hours."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_276584533" MODIFIED="1580240384413" TEXT="May terminate at any time. If they terminate within 10 minutes of starting, you will not be charged for that time."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_286279369" MODIFIED="1580240416021" TEXT="Not covered by any SLA"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1491147242" MODIFIED="1580285651009" TEXT="Cannot be set to automatically restart"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1227611115" MODIFIED="1580285666435" TEXT="Cannot migrate to a regular VM"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1968812281" MODIFIED="1580226496842" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -583,16 +598,16 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_561049575" MODIFIED="1580239826339" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_964535113" MODIFIED="1580239837104" TEXT="COMPUTE ENGINE ADMIN">
-<node CREATED="1580239897018" ID="ID_1213181914" MODIFIED="1580239898207" TEXT="Users with this role have full control over Compute Engine instances."/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1580239897018" ID="ID_1213181914" MODIFIED="1580285298354" TEXT="Users with this role have full control over Compute Engine instances."/>
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_531704213" MODIFIED="1580239852358" TEXT="COMPUTE ENGINE NETWORK ADMIN">
-<node CREATED="1580239908261" ID="ID_1962468704" MODIFIED="1580239908741" TEXT="Users with this role can create, modify, and delete most networking resources, and it provides read-only access to firewall rules and SSL certifica- tions. This role does not give the user permission to create or alter instances."/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1580239908261" ID="ID_1962468704" MODIFIED="1580285298353" TEXT="Users with this role can create, modify, and delete most networking resources, and it provides read-only access to firewall rules and SSL certifica- tions. This role does not give the user permission to create or alter instances."/>
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_420764665" MODIFIED="1580239871276" TEXT="COMPUTE ENGINE SECURITY ADMIN">
-<node CREATED="1580239918306" ID="ID_1810371962" MODIFIED="1580239918783" TEXT="Users with this role can create, modify, and delete SSL certificates and firewall rules."/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1580239918306" ID="ID_1810371962" MODIFIED="1580285298354" TEXT="Users with this role can create, modify, and delete SSL certificates and firewall rules."/>
 </node>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1133626075" MODIFIED="1580239885750" TEXT="COMPUTE ENGINE VIEWER">
-<node CREATED="1580239931954" ID="ID_167955117" MODIFIED="1580239932347" TEXT="Users with this role can get and list Compute Engine resources but cannot read data from those resources."/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1580239931954" ID="ID_167955117" MODIFIED="1580285298354" TEXT="Users with this role can get and list Compute Engine resources but cannot read data from those resources."/>
 </node>
 </node>
 </node>
