@@ -494,7 +494,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1814669555" MODIFIED="1580146396063" TEXT="All traffic between GCP services can be transmitted over the Google network without the need to send traffic over the public internet. "/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1580287264713" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1580305577489" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
@@ -503,6 +503,7 @@
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_145678036" MODIFIED="1580286189328" TEXT="Automatic scaling of nodes(VMs) in the cluster"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_625100435" MODIFIED="1580286117792" TEXT="Automatic upgrading of cluster software as needed"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_350081608" MODIFIED="1580286314975" TEXT="It includes a master node and one or more worker nodes"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_590798100" MODIFIED="1580293168029" TEXT="Load balancing, automatic scaling, logging and node health checks and repairs"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1580287020370" TEXT="eviction policies set thresholds for resources, when a resource consumes more than the threshold kubernetes start shutting down pods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
@@ -530,7 +531,7 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1061006113" MODIFIED="1580286215279" TEXT="It&apos;s a VMs inside the cluster"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580293014092" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1580305581310" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1580293016195" TEXT="MANAGED INSTANCE GROUPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -840,7 +841,7 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1351901515" MODIFIED="1580287277711" POSITION="left" TEXT="CLOUD FUNCTIONS">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1351901515" MODIFIED="1580305578878" POSITION="left" TEXT="CLOUD FUNCTIONS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_872967413" MODIFIED="1580122598384" TEXT="Lightweight compute option for event-driven processing"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1809482279" MODIFIED="1580122640983" TEXT="Run code in response to an event like a file being uploaded to cloud storage"/>
