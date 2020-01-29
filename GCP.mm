@@ -494,7 +494,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1814669555" MODIFIED="1580146396063" TEXT="All traffic between GCP services can be transmitted over the Google network without the need to send traffic over the public internet. "/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1580286005222" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1580287264713" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
@@ -502,7 +502,10 @@
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_417705582" MODIFIED="1578911422559" TEXT="A cluster is a set of master components that control the system as a whole and a set of nodes that run containers."/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_145678036" MODIFIED="1580286189328" TEXT="Automatic scaling of nodes(VMs) in the cluster"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_625100435" MODIFIED="1580286117792" TEXT="Automatic upgrading of cluster software as needed"/>
-<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1580286314975" TEXT="It includes a master node and one or more worker nodes"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_350081608" MODIFIED="1580286314975" TEXT="It includes a master node and one or more worker nodes"/>
+<node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1580287020370" TEXT="eviction policies set thresholds for resources, when a resource consumes more than the threshold kubernetes start shutting down pods">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1580286539130" TEXT="PODS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_953552093" MODIFIED="1580286497586" TEXT="A Virtual Machine -&gt; Can have pne pod or several pods -&gt; inside each pod we can have several containers"/>
@@ -527,9 +530,9 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1061006113" MODIFIED="1580286215279" TEXT="It&apos;s a VMs inside the cluster"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580226403732" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580293014092" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580285782204" TEXT="MANAGED INSTANCE GROUPS">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1580293016195" TEXT="MANAGED INSTANCE GROUPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
@@ -567,7 +570,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_685768263" MODIFIED="1579876962050" TEXT="Encrypts all data at rest."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1524099037" MODIFIED="1580120955741" TEXT="VMs run within a low-level service called a hypervisor"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_500929298" MODIFIED="1580120978607" TEXT="VMS are IaaS (Infrastructure as a Service)"/>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1015607704" MODIFIED="1580226824204" TEXT="Preemptible VM">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_1015607704" MODIFIED="1580293021203" TEXT="Preemptible VM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_95308654" MODIFIED="1580121161902" TEXT="making a VM preemptible, means you may be charged significantly less for the VM than normal (around 80 percent less),"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1921195499" MODIFIED="1580121266136" TEXT="Your VM could be shut down at any time by Google."/>
@@ -577,7 +580,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1491147242" MODIFIED="1580285651009" TEXT="Cannot be set to automatically restart"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1227611115" MODIFIED="1580285666435" TEXT="Cannot migrate to a regular VM"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1968812281" MODIFIED="1580226496842" TEXT="CONCEPTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_1968812281" MODIFIED="1580293019138" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_1604109727" MODIFIED="1580226477890" TEXT="Intances run images which contain operting systems, libraries and other code."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_222785138" MODIFIED="1580226509241" TEXT="You have windows and linux images"/>
@@ -586,7 +589,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_147860697" MODIFIED="1580239682049" TEXT="Costs can vary between regions"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_84957165" MODIFIED="1580239742963" TEXT="Hardware platforms can vary between regions"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_499722493" MODIFIED="1580226835114" TEXT="SNAPSHOTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_499722493" MODIFIED="1580293019970" TEXT="SNAPSHOTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1671546273" MODIFIED="1580226941255" TEXT="You can take a snapshot of a Compute Engine(VM) persistent disk to quickly backup the disk so you can recover lost data, transfer contents to a new disk."/>
 </node>
@@ -594,6 +597,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1096884277" MODIFIED="1580239189804" TEXT="Custom Images are useful if you have to configure an operating system and install additional software on each instance of a VM that you run."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1572110890" MODIFIED="1580239290122" TEXT="You can import your custom images from your local environment."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1533641018" MODIFIED="1580293055469" TEXT="Images contain operating systems, libraries and other code."/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_561049575" MODIFIED="1580239826339" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -836,13 +840,14 @@
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693180352" ID="ID_1287751833" MODIFIED="1579874648995" TEXT="They are attached to the physical hardware."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1351901515" MODIFIED="1580132280636" POSITION="left" TEXT="CLOUD FUNCTIONS">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1351901515" MODIFIED="1580287277711" POSITION="left" TEXT="CLOUD FUNCTIONS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_872967413" MODIFIED="1580122598384" TEXT="Lightweight compute option for event-driven processing"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1809482279" MODIFIED="1580122640983" TEXT="Run code in response to an event like a file being uploaded to cloud storage"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1558499815" MODIFIED="1580122688729" TEXT="Serverless product"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_981012108" MODIFIED="1580122765251" TEXT="Automatically scale as load increases."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_678590961" MODIFIED="1580123053363" TEXT="You can write functions using nodejs, python or go"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_21523519" MODIFIED="1580292604938" TEXT="functions are executed in a secure and isolated environment"/>
 </node>
 <node BACKGROUND_COLOR="#0099ff" CREATED="1578907433782" FOLDED="true" ID="ID_735924093" MODIFIED="1580132298996" POSITION="left" TEXT="LOAD BALANCING">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
