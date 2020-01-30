@@ -606,6 +606,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1533641018" MODIFIED="1580293055469" TEXT="Images contain operating systems, libraries and other code."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1507903430" MODIFIED="1580395108839" TEXT="Images are similar to snapshots in that they are copies of disk contents. The difference is that snapshots are used to make data available on a disk, while images are used to create VMs."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_506763557" MODIFIED="1580395146472" TEXT="They can be created from: disk, snapshot, cloud storage file, another image."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1746188871" MODIFIED="1580395233814" TEXT="Attribute &quot;Family&quot; allows to group images"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_561049575" MODIFIED="1580372656733" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
