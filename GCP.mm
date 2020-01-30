@@ -581,7 +581,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1491147242" MODIFIED="1580285651009" TEXT="Cannot be set to automatically restart"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1227611115" MODIFIED="1580285666435" TEXT="Cannot migrate to a regular VM"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_1968812281" MODIFIED="1580372653870" TEXT="CONCEPTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_1968812281" MODIFIED="1580396557746" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_1604109727" MODIFIED="1580226477890" TEXT="Intances run images which contain operting systems, libraries and other code."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_222785138" MODIFIED="1580226509241" TEXT="You have windows and linux images"/>
@@ -589,6 +589,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_861343732" MODIFIED="1580226612729" TEXT="You can create your own images from a boot disk or from another image"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_147860697" MODIFIED="1580239682049" TEXT="Costs can vary between regions"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_84957165" MODIFIED="1580239742963" TEXT="Hardware platforms can vary between regions"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_736522798" MODIFIED="1580396632015" TEXT="--async command is to display more information. It&apos;s similar to --verbosity flag. You can specify the level of dailted output messages."/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_499722493" MODIFIED="1580394676007" TEXT="SNAPSHOTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
