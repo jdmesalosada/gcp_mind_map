@@ -597,12 +597,15 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_542286925" MODIFIED="1580394559559" TEXT="You can use them to save data on a disk so you can restore it."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1350943987" MODIFIED="1580394660727" TEXT="It&apos;s a convenient way to multiple persistent disks with the same data."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1787106580" MODIFIED="1580394824679" TEXT="The first time you make a snapshot GPC will make a full copy of thedata, the next time GCP will copy only the data tha changed since the last snapshot"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1445268946" MODIFIED="1580394920708" TEXT="The role to work with snapshots is Compute Storage Admin"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_512206269" MODIFIED="1580372655869" TEXT="IMAGES">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_512206269" MODIFIED="1580394997052" TEXT="IMAGES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1096884277" MODIFIED="1580239189804" TEXT="Custom Images are useful if you have to configure an operating system and install additional software on each instance of a VM that you run."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1572110890" MODIFIED="1580239290122" TEXT="You can import your custom images from your local environment."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1533641018" MODIFIED="1580293055469" TEXT="Images contain operating systems, libraries and other code."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1507903430" MODIFIED="1580395108839" TEXT="Images are similar to snapshots in that they are copies of disk contents. The difference is that snapshots are used to make data available on a disk, while images are used to create VMs."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_506763557" MODIFIED="1580395146472" TEXT="They can be created from: disk, snapshot, cloud storage file, another image."/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_561049575" MODIFIED="1580372656733" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
