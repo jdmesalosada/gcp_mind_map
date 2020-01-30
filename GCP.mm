@@ -590,9 +590,13 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_147860697" MODIFIED="1580239682049" TEXT="Costs can vary between regions"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_84957165" MODIFIED="1580239742963" TEXT="Hardware platforms can vary between regions"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_499722493" MODIFIED="1580372654854" TEXT="SNAPSHOTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_499722493" MODIFIED="1580394676007" TEXT="SNAPSHOTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1671546273" MODIFIED="1580226941255" TEXT="You can take a snapshot of a Compute Engine(VM) persistent disk to quickly backup the disk so you can recover lost data, transfer contents to a new disk."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_813394575" MODIFIED="1580394524544" TEXT="Copies of data on a persistent disk."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_542286925" MODIFIED="1580394559559" TEXT="You can use them to save data on a disk so you can restore it."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1350943987" MODIFIED="1580394660727" TEXT="It&apos;s a convenient way to multiple persistent disks with the same data."/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1787106580" MODIFIED="1580394824679" TEXT="The first time you make a snapshot GPC will make a full copy of thedata, the next time GCP will copy only the data tha changed since the last snapshot"/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_512206269" MODIFIED="1580372655869" TEXT="IMAGES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -654,6 +658,12 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_334077628" MODIFIED="1580376300911" TEXT="Google offers discounts for sustained usage"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1213484869" MODIFIED="1580376326944" TEXT="VMS are charged for a minimum of 1 minute of use"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_638179855" MODIFIED="1580376361549" TEXT="Preemptible VMs can save you up to 80 percent of the cost of a VM"/>
+</node>
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" ID="ID_937083830" MODIFIED="1580394432771" TEXT="GPU">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1798547087" MODIFIED="1580394285337" TEXT="It&apos;s used for math-intensive applications such as visualizations and machine learning,"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_555115221" MODIFIED="1580394342345" TEXT="The allow  that some work to be off-loaded from the CPU to the GPU"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1920371689" MODIFIED="1580394448729" TEXT="GPU should be compatible with the CPU selected."/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1580226398009" POSITION="left" TEXT="BIGDATA SERVICE">
