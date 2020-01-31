@@ -509,7 +509,7 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1061006113" MODIFIED="1580286215279" TEXT="It&apos;s a VMs inside the cluster"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_364134257" MODIFIED="1580376217365" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1580465476950" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580458636160" TEXT="MANAGED INSTANCE GROUPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -517,7 +517,9 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923827407" ID="ID_2092920" MODIFIED="1579013821231" TEXT="It can automatically scale the number of instances in the group."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923865543" ID="ID_754863307" MODIFIED="1579013821231" TEXT="They can work with load balancing services to distribute network traffic to all instances in the group."/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924007121" ID="ID_198046764" MODIFIED="1580458457894" TEXT="The first thing you need to do is create an instance template where you specify the machine type, boot disk image, zone, labels, and other properties of an instance."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924007121" ID="ID_198046764" MODIFIED="1580464854816" TEXT="The first thing you need to do is create an instance template where you specify the machine type, boot disk image, zone, labels, and other properties of an instance.">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924168657" ID="ID_1644406752" MODIFIED="1580458668181" TEXT="They can contain instances in a single zone or across a region"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578924283343" ID="ID_1702786334" MODIFIED="1579013821231" TEXT="Offers autoscaling capabilities that allow add or remove instances based on work load">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -527,6 +529,7 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_1341908832" MODIFIED="1580113014895" TEXT="AUTOSCALING: Add or remove VMs from the cluster based on the workload">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578924497004" ID="ID_1544450504" MODIFIED="1580464876936" TEXT="Support autoscaling and load balancing"/>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1097479081" MODIFIED="1580372649710" TEXT="UNMANAGED INSTANCE GROUPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
@@ -819,7 +822,7 @@
 </node>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_527725756" MODIFIED="1580122712082" TEXT="Serverless product"/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1447864999" MODIFIED="1580459386140" POSITION="left" TEXT="BILLING">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1447864999" MODIFIED="1580459453593" POSITION="left" TEXT="BILLING">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_1679611554" MODIFIED="1579689012819" TEXT="For avoid run up GCP bill we can use alerts, reports and quotas"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" ID="ID_745323802" MODIFIED="1579689055298" TEXT="Quotas:  Designed to prevent the over-consumption of resources">
@@ -853,9 +856,11 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1579973321241" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" ID="ID_1872695395" MODIFIED="1580465493525" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER/ MARKETPLACE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_263794377" MODIFIED="1580465530541" TEXT="You can find preconfigured applications that are ready to deploy into the GoogleCloud"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_1806318040" MODIFIED="1580465622629" TEXT="It&apos;s a central repository of applications and data sets that can be deployed to your GCP environment."/>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" FOLDED="true" ID="ID_1454561778" MODIFIED="1580146139731" POSITION="right" TEXT="DISK">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
