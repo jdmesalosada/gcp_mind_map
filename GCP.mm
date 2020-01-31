@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580459385209" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580480731733" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" FOLDED="true" ID="ID_340129391" MODIFIED="1580459237633" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
@@ -157,12 +157,18 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1788004815" MODIFIED="1580151085266" TEXT="You need the resourcemanager.project.create IAM permission to create projects"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_52740359" MODIFIED="1580151210578" TEXT="In Projects we create resources,  use GCP services, manage permissions, and manage billing options"/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1527572519" MODIFIED="1580459375682" TEXT="ORGANIZATION POLICIES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_1527572519" MODIFIED="1580480735214" TEXT="ORGANIZATION POLICIES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1769624259" MODIFIED="1580151455567" TEXT="GCP provides an Organization Policy Service"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_51260085" MODIFIED="1580151516952" TEXT="Controls access to an organization&#xb4;s resources"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_785432840" MODIFIED="1580151584072" TEXT="It lets you specify limits on the ways resources can be used"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1053345406" MODIFIED="1580151618511" TEXT="One way to think of the difference is that IAM specifies who can do things, and the Organization Policy Service specifies what can be done with resources."/>
+</node>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_356171963" MODIFIED="1580480742810" TEXT="SCOPES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_443312784" MODIFIED="1580480764198" TEXT="Scopes are permissions granted to a VM to perform some operation."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1304025918" MODIFIED="1580480789513" TEXT="Scopes authorize the access to API methods"/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_361396277" MODIFIED="1580480836696" TEXT="To configure access controls to a VM you need to configure both IAM and scopes"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1578907407296" FOLDED="true" ID="ID_271345473" MODIFIED="1580147543141" POSITION="right" TEXT="VPC">
@@ -856,7 +862,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" ID="ID_1872695395" MODIFIED="1580465493525" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER/ MARKETPLACE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1580480729172" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER/ MARKETPLACE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_263794377" MODIFIED="1580465530541" TEXT="You can find preconfigured applications that are ready to deploy into the GoogleCloud"/>
