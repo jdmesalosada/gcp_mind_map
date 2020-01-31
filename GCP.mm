@@ -861,6 +861,15 @@
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_263794377" MODIFIED="1580465530541" TEXT="You can find preconfigured applications that are ready to deploy into the GoogleCloud"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_1806318040" MODIFIED="1580465622629" TEXT="It&apos;s a central repository of applications and data sets that can be deployed to your GCP environment."/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_1824522734" MODIFIED="1580466317010" TEXT="You can use it to deploy solutions like selenoid or LAMP(Linux, Apache, Mysql, PHP)"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_1656184658" MODIFIED="1580476116840" TEXT="Deployment Manager configuration files are written in YAML syntax"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_70875985" MODIFIED="1580476982116" TEXT="Place where third-party vendors can offer deployable applications based on proprietary or open source software"/>
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_686981412" MODIFIED="1580476724111" TEXT="DEPLOYMENT TEMPLATES">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1580476614350" ID="ID_591689458" MODIFIED="1580476719350" TEXT="When deployment configurations are becoming complicated you can use deployment templates"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1580476614350" ID="ID_1867262417" MODIFIED="1580476719349" TEXT="They&apos;re another text file you use to define resources and import those resources into configuration files"/>
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1580476614350" ID="ID_313015393" MODIFIED="1580476898180" TEXT="Templates can be written in Python or Jinja2"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579693144358" FOLDED="true" ID="ID_1454561778" MODIFIED="1580146139731" POSITION="right" TEXT="DISK">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
