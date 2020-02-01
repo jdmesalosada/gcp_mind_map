@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" ID="ID_1255229813" MODIFIED="1580480731733" POSITION="left" TEXT="IAM">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_1255229813" MODIFIED="1580552905385" POSITION="left" TEXT="IAM">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579688981914" FOLDED="true" ID="ID_340129391" MODIFIED="1580459237633" TEXT="To control who can do what">
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579689221826" ID="ID_84936748" MODIFIED="1579689234919" TEXT="Principle of least privilege"/>
@@ -164,7 +164,7 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_785432840" MODIFIED="1580151584072" TEXT="It lets you specify limits on the ways resources can be used"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1053345406" MODIFIED="1580151618511" TEXT="One way to think of the difference is that IAM specifies who can do things, and the Organization Policy Service specifies what can be done with resources."/>
 </node>
-<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" ID="ID_356171963" MODIFIED="1580480742810" TEXT="SCOPES">
+<node BACKGROUND_COLOR="#ff9966" CREATED="1579689770873" FOLDED="true" ID="ID_356171963" MODIFIED="1580547960572" TEXT="SCOPES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_443312784" MODIFIED="1580480764198" TEXT="Scopes are permissions granted to a VM to perform some operation."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1579689792106" ID="ID_1304025918" MODIFIED="1580480789513" TEXT="Scopes authorize the access to API methods"/>
@@ -478,7 +478,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1579692976153" ID="ID_1814669555" MODIFIED="1580146396063" TEXT="All traffic between GCP services can be transmitted over the Google network without the need to send traffic over the public internet. "/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" FOLDED="true" ID="ID_838693586" MODIFIED="1580459088826" POSITION="left" TEXT="KUBERNETES ENGINE">
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578910730794" ID="ID_838693586" MODIFIED="1580553157174" POSITION="left" TEXT="KUBERNETES ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910751962" ID="ID_211788920" MODIFIED="1578911422560" TEXT="It&#x2019;s like an infrastructure as a service offering in that it saves you infrastructure chores"/>
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910758962" ID="ID_602598405" MODIFIED="1578911422560" TEXT="Kubernetes make easy orchestrate many containers on many hosts"/>
@@ -491,7 +491,7 @@
 <node BACKGROUND_COLOR="#99cc00" CREATED="1578910771209" ID="ID_1951983103" MODIFIED="1580287020370" TEXT="eviction policies set thresholds for resources, when a resource consumes more than the threshold kubernetes start shutting down pods">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1580286539130" TEXT="PODS">
+<node BACKGROUND_COLOR="#ccccff" CREATED="1578910800170" ID="ID_195162391" MODIFIED="1580554793024" TEXT="PODS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_953552093" MODIFIED="1580286497586" TEXT="A Virtual Machine -&gt; Can have pne pod or several pods -&gt; inside each pod we can have several containers"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910779491" ID="ID_1795938580" MODIFIED="1578911410551" TEXT="A pod is the smallest deployable unit in Kubernetes(kuberneris). Think of a pod as if it were a running process on your cluster."/>
@@ -499,25 +499,43 @@
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910805106" ID="ID_945299994" MODIFIED="1578911397419" TEXT="To expose the pods to internet with can connect a load balancer to it"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_967517922" MODIFIED="1578911397417" TEXT="By default, pods in a deployment are only accessible inside your cluster, to make the pods in your deployment publicly available, you can connect a load balancer to it by running the kubectl expose command"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_363239552" MODIFIED="1580286443975" TEXT="Containers within a single pod share storage and network resources"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_259050255" MODIFIED="1580286602514" TEXT="Containers within a pod share an Ip address and port space"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_259050255" MODIFIED="1580552991138" TEXT="Containers within a pod share an Ip address and port space"/>
 <node BACKGROUND_COLOR="#ccccff" CREATED="1578910902218" ID="ID_1556161931" MODIFIED="1579798238241" TEXT="Deployment">
 <node BACKGROUND_COLOR="#00cccc" CREATED="1578910848731" ID="ID_919917666" MODIFIED="1578911386524" TEXT="A deployment represents a group of replicas of the same pod. It keeps your pods running even if a node on which some of them run on fails. ( Un &#x201c;deployment&#x201d; es un grupo de r&#xe9;plicas del mismo pod. Mantiene tus pods funcionando incluso si falla un nodo en el que algunos de ellos se ejecutan) "/>
 </node>
-<node BACKGROUND_COLOR="#ccccff" CREATED="1578910962124" ID="ID_773420388" MODIFIED="1579973615333" TEXT="Service">
-<node BACKGROUND_COLOR="#33cc00" CREATED="1578910968699" ID="ID_1988895291" MODIFIED="1578911376052" TEXT="A service is the fundamental way kubernetes represents load balancing. "/>
-<node BACKGROUND_COLOR="#33cc00" CREATED="1578910981451" ID="ID_841004772" MODIFIED="1578911376051" TEXT="A service groups a set of pods together and provides a stable endpoint for them."/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1002574836" MODIFIED="1580552983568" TEXT="Each pod gets a unique IP address and a set of ports. Containers connect to a port. Multiple containers in a pod connect to different ports and can talk to each other on localhost. "/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1516496571" MODIFIED="1580553241398" TEXT="Support autoscaling"/>
 </node>
-</node>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" ID="ID_1748360289" MODIFIED="1579873670648" TEXT="Node pool">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" FOLDED="true" ID="ID_1748360289" MODIFIED="1580553780147" TEXT="Node pool">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1572185476" MODIFIED="1580286093813" TEXT="It&apos;s a subset or collection of nodes instances within a cluster that all have the same configuration"/>
 </node>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1579864348035" ID="ID_665104683" MODIFIED="1580286206224" TEXT="Node">
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578910868363" ID="ID_1061006113" MODIFIED="1580286215279" TEXT="It&apos;s a VMs inside the cluster"/>
 </node>
+<node BACKGROUND_COLOR="#66ffcc" CREATED="1580553408874" ID="ID_724154809" MODIFIED="1580553913376" TEXT="SERVICES">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1580553418813" ID="ID_1721649421" MODIFIED="1580555008957" TEXT="A service, in Kubernetes terminology, is an object that provides API endpoints with a stable IP address that allow applications to discover pods running a particular application."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1580553506087" ID="ID_402225181" MODIFIED="1580553742138" TEXT="they maintain an up-to-date list of pods running an application."/>
+<node BACKGROUND_COLOR="#33cc00" CREATED="1578910968699" ID="ID_1988895291" MODIFIED="1578911376052" TEXT="A service is the fundamental way kubernetes represents load balancing. "/>
+<node BACKGROUND_COLOR="#33cc00" CREATED="1578910981451" ID="ID_841004772" MODIFIED="1578911376051" TEXT="A service groups a set of pods together and provides a stable endpoint for them."/>
 </node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1580465476950" POSITION="right" TEXT="COMPUTE ENGINE">
+<node BACKGROUND_COLOR="#66ffcc" CREATED="1580553408874" ID="ID_1083113280" MODIFIED="1580553915274" TEXT="REPLICASET">
+<node BACKGROUND_COLOR="#ff9999" CREATED="1580553418813" ID="ID_1738548345" MODIFIED="1580553706033" TEXT="Ensures the correct number identical of pods are running"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1580553506087" ID="ID_439413058" MODIFIED="1580553691233" TEXT="detect that not enough pods for that application or workload are running and will create another"/>
+<node BACKGROUND_COLOR="#ff9999" CREATED="1580553506087" ID="ID_980520425" MODIFIED="1580553691231" TEXT="ReplicaSets are also used to update and delete pods"/>
+</node>
+<node BACKGROUND_COLOR="#66ffcc" CREATED="1580553408874" ID="ID_923146631" MODIFIED="1580554813333" TEXT="STATEFULSET">
+<node BACKGROUND_COLOR="#33ff00" CREATED="1580553418813" ID="ID_959559829" MODIFIED="1580554996073" TEXT="They&apos;re similar to deployments but they assign unique identifiers to pod"/>
+<node BACKGROUND_COLOR="#33ff00" CREATED="1580553506087" ID="ID_965951637" MODIFIED="1580555128028" TEXT="This is util when we want a single pod respond to all calls for a client during a single session"/>
+<node BACKGROUND_COLOR="#33ff00" CREATED="1580553506087" ID="ID_260264799" MODIFIED="1580555177009" TEXT="when an application needs a unique network identifier or stable persistent storage"/>
+</node>
+<node BACKGROUND_COLOR="#66ffcc" CREATED="1580553408874" ID="ID_644263079" MODIFIED="1580555196114" TEXT="JOB">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1580553418813" ID="ID_916396723" MODIFIED="1580555290774" TEXT="Jobs create pods and run them until the appli- cation completes a workload"/>
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1580553506087" ID="ID_1316844831" MODIFIED="1580555210452" TEXT="This is util when we want a single pod respond to all calls for a client during a single session"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#0099ff" CREATED="1578905169650" FOLDED="true" ID="ID_364134257" MODIFIED="1580552914162" POSITION="right" TEXT="COMPUTE ENGINE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1798141943" MODIFIED="1580458636160" TEXT="MANAGED INSTANCE GROUPS">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" FOLDED="true" ID="ID_1798141943" MODIFIED="1580550020129" TEXT="MANAGED INSTANCE GROUPS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923714291" ID="ID_672597331" MODIFIED="1579013821232" TEXT="Collection of identical virtual machine instances that you control as a single entity using an instance template."/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1578923785798" ID="ID_167903913" MODIFIED="1579013821231" TEXT="Instance group can be resized"/>
@@ -567,7 +585,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1491147242" MODIFIED="1580285651009" TEXT="Cannot be set to automatically restart"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1227611115" MODIFIED="1580285666435" TEXT="Cannot migrate to a regular VM"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_1968812281" MODIFIED="1580458368509" TEXT="CONCEPTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_1968812281" MODIFIED="1580550070782" TEXT="CONCEPTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_1604109727" MODIFIED="1580226477890" TEXT="Intances run images which contain operting systems, libraries and other code."/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_222785138" MODIFIED="1580226509241" TEXT="You have windows and linux images"/>
@@ -577,7 +595,7 @@
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_84957165" MODIFIED="1580239742963" TEXT="Hardware platforms can vary between regions"/>
 <node BACKGROUND_COLOR="#ffcc66" CREATED="1578923702307" ID="ID_736522798" MODIFIED="1580396632015" TEXT="--async command is to display more information. It&apos;s similar to --verbosity flag. You can specify the level of dailted output messages."/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_499722493" MODIFIED="1580458367277" TEXT="SNAPSHOTS">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_499722493" MODIFIED="1580552913117" TEXT="SNAPSHOTS">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1671546273" MODIFIED="1580226941255" TEXT="You can take a snapshot of a Compute Engine(VM) persistent disk to quickly backup the disk so you can recover lost data, transfer contents to a new disk."/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_813394575" MODIFIED="1580394524544" TEXT="Copies of data on a persistent disk."/>
@@ -586,7 +604,7 @@
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1787106580" MODIFIED="1580394824679" TEXT="The first time you make a snapshot GPC will make a full copy of thedata, the next time GCP will copy only the data tha changed since the last snapshot"/>
 <node BACKGROUND_COLOR="#9999ff" CREATED="1578923702307" ID="ID_1445268946" MODIFIED="1580394920708" TEXT="The role to work with snapshots is Compute Storage Admin"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_512206269" MODIFIED="1580458366238" TEXT="IMAGES">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_512206269" MODIFIED="1580552910357" TEXT="IMAGES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1096884277" MODIFIED="1580239189804" TEXT="Custom Images are useful if you have to configure an operating system and install additional software on each instance of a VM that you run."/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1572110890" MODIFIED="1580239290122" TEXT="You can import your custom images from your local environment."/>
@@ -599,7 +617,7 @@
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_837779786" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_207331476" SOURCE="ID_837779786" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_561049575" MODIFIED="1580372656733" TEXT="ROLES">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_561049575" MODIFIED="1580551583360" TEXT="ROLES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_964535113" MODIFIED="1580239837104" TEXT="COMPUTE ENGINE ADMIN">
 <node BACKGROUND_COLOR="#ff9966" CREATED="1580239897018" ID="ID_1213181914" MODIFIED="1580285298354" TEXT="Users with this role have full control over Compute Engine instances."/>
@@ -614,7 +632,7 @@
 <node BACKGROUND_COLOR="#ff9966" CREATED="1580239931954" ID="ID_167955117" MODIFIED="1580285298354" TEXT="Users with this role can get and list Compute Engine resources but cannot read data from those resources."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_65516356" MODIFIED="1580372840972" TEXT="AVAILABILITY POLICIES">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_65516356" MODIFIED="1580551560938" TEXT="AVAILABILITY POLICIES">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_993221757" MODIFIED="1580372689572" TEXT="Preemptible">
 <node BACKGROUND_COLOR="#ff9966" CREATED="1580239897018" ID="ID_633832350" MODIFIED="1580372713510" TEXT="Allows google to shutdown the server with a 30-second notice"/>
@@ -654,11 +672,12 @@
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1213484869" MODIFIED="1580376326944" TEXT="VMS are charged for a minimum of 1 minute of use"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_638179855" MODIFIED="1580376361549" TEXT="Preemptible VMs can save you up to 80 percent of the cost of a VM"/>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_937083830" MODIFIED="1580458370845" TEXT="GPU">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1580121177736" FOLDED="true" ID="ID_937083830" MODIFIED="1580551579623" TEXT="GPU">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1798547087" MODIFIED="1580394285337" TEXT="It&apos;s used for math-intensive applications such as visualizations and machine learning,"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_555115221" MODIFIED="1580394342345" TEXT="The allow  that some work to be off-loaded from the CPU to the GPU"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_1920371689" MODIFIED="1580394448729" TEXT="GPU should be compatible with the CPU selected."/>
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1578923702307" ID="ID_66355887" MODIFIED="1580551515392" TEXT="If you add a GPU you must set the instance to terminate during maintenance in the Availability Policies"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#3399ff" CREATED="1579082305424" FOLDED="true" ID="ID_1785371119" MODIFIED="1580459000626" POSITION="left" TEXT="BIGDATA SERVICE">
@@ -862,7 +881,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1580480729172" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER/ MARKETPLACE">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1579692861464" FOLDED="true" ID="ID_1872695395" MODIFIED="1580552908937" POSITION="right" TEXT="GOOGLE CLOUD LAUNCHER/ MARKETPLACE">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_745059112" MODIFIED="1579692904301" TEXT="Cloud marketplace and google cloud launcher are the same): It&apos;s a tool for quickly deploying functional software packages on GCP. "/>
 <node BACKGROUND_COLOR="#ff9966" CREATED="1579692888553" ID="ID_263794377" MODIFIED="1580465530541" TEXT="You can find preconfigured applications that are ready to deploy into the GoogleCloud"/>
